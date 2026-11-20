@@ -155,10 +155,7 @@
 // ==========================================
 // ENCENDEMOS LA NUMERACIÓN PARA EL RESTO DEL TEXTO
 // ==========================================
-#set heading(numbering: "1.1.")
-#counter(heading).update(0) // Reiniciamos el contador a 0. El próximo será el 1.
-
-#pagebreak()
+#set heading(numbering: none)
 
 = Resumen ejecutivo
 
@@ -169,6 +166,11 @@ A diferencia del trueque tradicional, que suele fracasar por la dificultad de lo
 Buscando consolidarse como la plataforma tecnológica líder en economía colaborativa a nivel regional, el proyecto se sustenta en seis pilares estratégicos: desarrollo e innovación tecnológica, seguridad y confianza comunitaria, crecimiento regional, sostenibilidad ambiental, experiencia de usuario superior y un modelo de negocio financieramente viable. Su esquema de monetización es de bajo impacto y totalmente transparente, operando bajo un formato gratuito para la publicación de artículos y generando ingresos a través de comisiones por intercambios exitosos, márgenes logísticos y membresías opcionales Premium.  
 
 SWAP se posiciona como una respuesta moderna y sustentable al sobreconsumo, extendiendo la vida útil de los objetos y generando un impacto ambiental positivo.
+
+#pagebreak()
+
+#set heading(numbering: "1.1.")
+#counter(heading).update(0) // Reiniciamos el contador a 0. El próximo será el 1.
 
 = Administración Organizacional
 
@@ -228,7 +230,7 @@ La imagen corporativa de SWAP se construirá alrededor de tres atributos princip
 
 + *Utilidad e innovación:* La marca debe comunicar que intercambiar es sencillo y práctico. El diseño tiene que facilitar la publicación de objetos, la búsqueda de coincidencias y la coordinación de los intercambios, sin hacer que la sustentabilidad parezca más importante que la funcionalidad.
 
-=== Personalidad de marca
+=== Personalidad de la Marca
 
 #figure(
   table(
@@ -249,7 +251,10 @@ La imagen corporativa de SWAP se construirá alrededor de tres atributos princip
 
 Aunque la identidad visual forma parte de la identidad corporativa, es uno de los principales recursos que SWAP puede utilizar para influir en su imagen pública.
 
-#image("../images/logo_swap.png", width: 2in)
+#figure(
+  image("../images/logo_swap.png", width: 2in),
+  caption: [Logo de SWAP]
+)
 
 #set heading(numbering: "1.1.")
 
@@ -327,7 +332,7 @@ Con el desarrollo del proyecto SWAP, se pretende transformar los hábitos de con
 
 SWAP responde a esta problemática mediante el aprovechamiento de las Tecnologías de la Información y la Comunicación (TIC), integrando algoritmos inteligentes de coincidencia (matchmaking), geolocalización y protocolos de seguridad digital. Al sustituir la coincidencia recíproca directa obligatoria y el intercambio informal por un ecosistema verificado y automatizado, se ofrece a los usuarios la posibilidad de convertir sus bienes en desuso en valor real para adquirir lo que necesitan sin desembolsar dinero en efectivo.
 
-== investigación de Mercado
+== Investigación de Mercado
 
 == Estrategias de Comercialización
 
@@ -335,9 +340,67 @@ SWAP responde a esta problemática mediante el aprovechamiento de las Tecnologí
 
 = Estudio Técnico
 
+== Especificaciones del producto (materia prima e insumos)
+
+== Proceso de producción
+
+== Tecnología (equipo e instalaciones)
+
+== Capacidad instalada, inventarios, ubicación y diseño de planta y oficina
+
+== Mano de obra requerida
+
+== Procedimiento de mejora continua
+
+== Costo de producción
+
+= Responsabilidad Social
+
+== Programas de beneficio a la comunidad
+
+== Clasificación de desperdicios y reciclaje
+
+== Bajo consumo de agua, luz y gas
+
+== Cuidado y desarrollo de una cultura ecológica
+
+= Aspectos legales
+
+== Constitución legal
+
+== Trámites laborales (IMSS, INFONAVIT, AFORE, entre otros)
+
+== Régimen Fiscal (SHCP)
+
+== Permisos Delegación o Municipio, Protección Civil, Otros Permisos
+
 = Estudio Financiero
 
-// Referencias
-// #pagebreak()
+== Estado de resultados del proyecto
 
-// #bibliography("../references.bib", style: "apa")
+== Capital de trabajo
+
+== Balance pro forma
+
+== Tasa Interna de Retorno (TIR) y Valor Presente Neto (VPN)
+
+== Principales razones financieras
+
+== Punto de equilibrio
+
+== Flujo de efectivo
+
+#pagebreak()
+
+#set heading(numbering: none)
+
+= Anexos
+
++ Organigrama
++ Análisis y descripción de puestos
++ Administración de sueldos y salarios
+
+// Referencias
+#pagebreak()
+
+#bibliography("../references.bib", style: "apa")
