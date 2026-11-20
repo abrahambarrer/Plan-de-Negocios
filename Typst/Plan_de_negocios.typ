@@ -334,9 +334,127 @@ SWAP responde a esta problemática mediante el aprovechamiento de las Tecnologí
 
 == Investigación de Mercado
 
+Para respaldar el diseño del concepto comercial, se realizó una encuesta a 44 personas de la población objetivo regional. El instrumento constó de 25 reactivos estructurados para evaluar la frecuencia de acumulación de artículos, las principales barreras de seguridad en tratos con desconocidos, la preferencia de modalidades de trueque y la disposición al pago de comisiones y servicios de envío.
+
+Los datos obtenidos revelan hallazgos clave sobre la oferta acumulada y la demanda potencial en la región de Coatzacoalcos-Minatitlán.
+
+=== Datos demográficos
+
+Como se observa en la @grafica-1, el público interesado se concentra en jóvenes universitarios de la región Coatzacoalcos-Minatitlán. Al ser estudiantes con ingresos monetarios limitados o dependientes de presupuestos escolares, la propuesta de adquirir bienes mediante trueque sin desembolso monetario directo resulta atractiva. Los datos se distribuyen de la siguiente manera:
+
+- *Edad:* El 81.8% (36 de 44 encuestados) pertenece al rango de 18 a 24 años, mientras que los rangos de 25 a 34 años y 45 años o más representan un 9.1% cada uno.
+- *Ocupación:* El 54.5% únicamente estudia, el 20.5% estudia y trabaja, el 18.2% trabaja y el 6.8% se dedica al hogar.
+- *Ubicación:* La mayor concentración se ubica en Coatzacoalcos (47.7%) y Minatitlán (18.2%), seguidos de Cosoleacaque (6.8%) y Nanchital (6.8%).
+
+#figure(
+  image("../images/edad_ocupacion.png", width: 6in),
+  caption: [Edad por ocupación]
+) <grafica-1>
+
+=== Artículos en desuso
+
+La @grafica-2 muestra una importante masa crítica de bienes inactivos en las casas de los usuarios. Más del 60% de la muestra cuenta con al menos 6 objetos listos para intercambiar. La ropa y la tecnología representan más del 72% de los bienes estancados. Enfocar las campañas iniciales en estas dos categorías garantizará coincidencias rápidas (matches) en la aplicación.
+
+#figure(
+  image("../images/categorias_articulos.png", width: 6in),
+  caption: [Edad por ocupación.]
+) <grafica-2>
+
+=== Destino de artículos en desuso
+
+La @grafica-3 indica que la acumulación (40.9%) o regalar (47.7%) son las salidas predominantes debido a que la venta informal en redes sociales genera desconfianza o requiere un esfuerzo de negociación desproporcionado. La app SWAP puede captar ese 88.6% de usuarios que actualmente regalan o guardan sus artículos, ofreciéndoles una vía estructurada para obtener valor real a cambio de sus pertenecias sin los riesgos del comercio informal en redes.
+
+#figure(
+  image("../images/canales_utilizados.png", width: 6in),
+  caption: [Cantidad y categorías de artículos en desuso.]
+) <grafica-3>
+
+=== Percepción para generar confianza
+
+En la @grafica-4 se observa que la identidad validada de los usuarios y el sistema de reputación comunitaria deben ser visibles desde el primer contacto en la plataforma. La combinación de una alta intención de uso (63.6%) con la demanda explícita de perfiles verificados confirma que la propuesta de valor responde directamente a los dolores del consumidor.
+
+#figure(
+  image("../images/generar_confianza.png", width: 6in),
+  caption: [Elementos para generar confianza.]
+) <grafica-4>
+
+=== Preocupación en los encuentros de intercambio
+
+De la @grafica-5 se interpreta que el temor a ser engañado con el estado real del producto es el principal obstáculo del mercado informal de segunda mano. Los datos justifican la integración obligatoria de herramientas de verificación de estado y puntos de encuentro seguros para reducir la fricción en la adopción.
+
+#figure(
+  image("../images/preocupaciones.png", width: 6in),
+  caption: [Principales preocupaciones en un encuentro físico.]
+) <grafica-5>
+
+=== Medios de monetización
+
+En la @grafica-6 se visualiza la  preferencia del monto de tarifa por intercambio exitoso en el rango de \$10 a \$20 MXN se alinea con las expectativas de casi la mitad del mercado, permitiendo monetizar al segmento universitario. La @grafica-7 se ve que existe una alta aceptación por probar la suscripción tras un periodo gratuito (43.2%) sugiere implementar un modelo freemium con prueba de 30 días para maximizar la tasa de conversión a suscripciones de pago. Por último, la @grafica-8 indica que la mayor parte del público acepta el pago por envío bajo un precio razonable.
+
+#figure(
+  image("../images/intercambio.png", width: 6in),
+  caption: [Preferencia de la tarifa por intercambio.]
+) <grafica-6>
+
+#figure(
+  image("../images/aceptacion_suscripcion.png", width: 6in),
+  caption: [Aceptación de la suscripción a un plan premium.]
+) <grafica-7>
+
+#figure(
+  image("../images/pago_envio.png", width: 6in),
+  caption: [Aceptación del pago de envío.]
+) <grafica-8>
+
 == Estrategias de Comercialización
 
 == Pronóstico de Ventas
+
+Al ser SWAP una plataforma tecnológica de economía colaborativa, el forecast proyecta el volumen de transacciones y captación de suscripciones a partir del mercado objetivo de Coatzacoalcos y Minatitlán y de las preferencias identificadas en la encuesta.
+
+De la población objetivo se recuperan los siguientes datos:
+
+- Mercado Potencial (63.6% de interés positivo según encuesta): 35,242 personas interesadas.
+- Meta de Captación Año 1 (Estimando captar el 5% del mercado potencial): 1,762 Usuarios Activos Mensuales (MAU).
+
+De esta manera, basado en 1,762 MAU con un promedio de actividad de 1 intercambio al mes (1,762 matches mensuales) se proyectan los siguientes ingresos en el primer año:
+
+- Comisiones por match: \$19,822 MXN mensuales (1,322 matches sujetos a tarifa, con un costo de \$15 MXN por match).
+- Suscripciones Premium: \$25,509 MXN mensuales (Considerando una conversión del 29.5% de los MAU a una suscripción de \$49 MXN/mes).
+- Intermediación Logística: \$12,414 MXN mensuales (Considerando que el 70.5% de los intercambios utiliza envío, con un margen operativo de \$10 MXN por guía).
+- Ingreso Total Proyectado: 57,746MXN mensuales (692,947 MXN anuales).
+
+
+El flujo de ingresos brutos proyectado de aproximadamente \$57,746 MXN mensuales permitirá financiar gradualmente las actividades de captación de usuarios, publicidad hiperlocal, infraestructura en la nube, consumo de APIs y operación del equipo de desarrollo. La asignación de estos recursos deberá realizarse conforme al presupuesto operativo de SWAP.
+
+Por otro lado, la métrica comercial crítica será incentivar a los 1,762 usuarios activos a publicar al menos 2 a 3 artículos durante su registro. Esto permitiría contar con un catálogo inicial aproximado de 3,524 a 5,286 artículos para facilitar las coincidencias entre usuarios. La plataforma ofrecerá alternativas de entrega en persona, a domicilio y por paquetería, de acuerdo con las preferencias registradas en la encuesta.
+
+#figure(
+  table(
+    columns: (1fr, 1.3fr, 1fr),
+    align: (left, left, center),
+    inset: 8pt,
+    stroke: 0.5pt + black,
+
+    // Encabezados
+    [*Concepto Comercial*], [*Supuesto / Métrica de Conversión*], [*Volumen / Monto Proyectado*],
+
+    // Filas de datos
+    [Población Objetivo (18-29 años)], [Jóvenes en Coatzacoalcos y Minatitlán], [55,380 personas],
+    [Mercado Potencial], [63.6% con interés positivo en la app (según encuesta)], [35,242 personas],
+    [Usuarios Activos (MAU)], [Captación del 5% sobre el mercado potencial], [1,762 usuarios al mes],
+    [Volumen de Matches], [Promedio de 1 match mensual por usuario], [1,762 matches al mes],
+    [Suscripciones Premium], [Conversión del 29.5% de los MAU a \$49 MXN], [521 suscriptores al mes],
+    [Guías de Envío], [70.5% de los matches utilizan logística integrada], [1,241 guías al mes],
+    [Ingresos por Comisiones], [Costo de \$15 MXN por match sujeto a tarifa], [\$19,822 MXN / mes],
+    [Ingresos por Suscripción], [Membresías activas de \$49 MXN al mes], [\$25,509 MXN / mes],
+    [Ingresos por Logística], [Margen de intermediación de \$10 MXN por guía], [\$12,414 MXN / mes],
+    [Ingresos Totales Mensuales], [Flujo de ingresos brutos mensuales (suma de líneas)], [\$57,746 MXN / mes],
+    [Proyección Anual (Año 1)], [Ingresos brutos estimados a 12 meses de operación], [\$692,947 MXN / año],
+  ),
+  caption: [Proyección comercial y financiera mensual y anual (Año 1).],
+) <tab-proyeccion>
+
 
 = Estudio Técnico
 
