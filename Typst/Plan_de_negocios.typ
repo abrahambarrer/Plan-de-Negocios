@@ -37,6 +37,17 @@
     it
   }
 
+  // 5. Configuracion de figuras
+  show figure.caption: it => {
+    set text(font: "Gill Sans MT", weight: "bold", size: 10pt)
+    set par(leading: 12pt - 10pt) // O directamente leading: 12pt si buscas espacio adicional entre líneas
+    it
+  }
+
+  // 6. Configuración de listas anidadas
+
+  set list(marker: ([•], [◦], [▪]))
+
   set enum(spacing: 1.5em)
 
   // --- PORTADA ---
@@ -408,26 +419,120 @@ En la @grafica-6 se visualiza la  preferencia del monto de tarifa por intercambi
 
 == Estrategias de Comercialización
 
+Basado en los resultados obtenidos en la encuesta de validación, se plantean las siguientes estrategias de comercialización óptimas para garantizar la penetración de mercado y la rentabilidad de la plataforma.
+
+1. *Posicionamiento de Marca: \"Seguridad como Eje Central\"*
+
+- *Justificación:* El 63.5% de los usuarios tiene como principal preocupación ser estafado o recibir artículos diferentes a lo prometido.
+
+- *Estrategia:* Convertir la seguridad en la principal ventaja competitiva de marketing. Toda la publicidad inicial debe destacar el \"Perfil Verificado\" (el factor que da mayor confianza al 65.4% según la encuesta) y el sistema de entrega segura mediante validación presencial por código QR.
+Mensaje clave: \"El trueque seguro. Sin sorpresas, sin estafas y con perfiles 100% verificados.\
+
+2. *Campaña de Adquisición Bivalente (Motivaciones de Uso)*
+
+- *Justificación:* Las motivaciones para usar la app están perfectamente divididas en la región: Ahorrar dinero (34.6%) y Liberar espacio en casa (34.6%).
+- *Estrategia:* Ejecutar campañas publicitarias dirigidas al segmento joven de Coatzacoalcos-Minatitlán (especialmente universitarios e independientes) abordando directamente ambos dolores.
+
+  - *Mensaje A (Ahorro):* \"Renueva tu tecnología y tu clóset sin gastar un peso. Intercambia lo que ya no usas.\"
+
+  - *Mensaje B (Espacio):* \"Dale un respiro a tu cuarto. Convierte las cosas que te estorban en las cosas que necesitas.\"
+
+3. *Estrategia de Precios: Micro-pagos y Prueba Premium (Sampling)*
+
+- *Justificación:* El 36.5% considera justa una tarifa de intercambio de entre \$11 a \$20. Además, el 44.2% pagaría una suscripción premium, pero solo después de probarla gratis.
+
+- *Estrategia:* Fijar la comisión por trueque exitoso en un micro-pago accesible de \$15.00 MXN para no generar fricción. Lanzar la plataforma ofreciendo el \"Primer Mes de SWAP Premium Gratis\". Que los nuevos usuarios experimenten de inmediato los beneficios de envíos más baratos (aprovechando que el 78.8% pagaría el envío si es justo) y el sello de verificación, incrementando así la tasa de retención mensual posterior.
+
+4. *Distribución: Canales de Acceso y Logística*
+
+- *Distribución Digital:* Lanzamiento en las principales tiendas de aplicaciones (Google Play y Apple App Store) con optimización para términos como \"trueque\", \"ahorro\" y \"segunda mano\".
+
+- *Distribución Logística:* Integración API de servicios de envío dentro de la app para cubrir la distribución de los artículos a nivel regional y nacional de manera automatizada.
+
+5. *Promoción: Comunicación y Ofertas*
+
+- *Publicidad Digital:* Campañas pagadas en plataformas como TikTok e Instagram geolocalizadas en la región, mostrando casos de éxito visuales y dinámicos (ej. \"Cambié mi consola por esta bici\").
+
+En la @competidores se muestran los principales competidores del proyecto en conjunto con su giro y propuesta, ventajas o puntos mejorables y su recibimiento.
+
+#show figure.where(kind: table): set block(breakable: true)
+
+#figure(
+    table(
+      columns: (1.2fr, 2fr, 2.5fr, 2fr),
+      inset: 8pt,
+      align: horizon,
+      table.header(
+        [*Competidor*],
+        [*Giro y Propuesta*],
+        [*Principales Desventajas o Puntos Mejorables*],
+        [*Impacto y Recibimiento*],
+      ),
+      [*Cambalache*],
+      [
+        *Categoría:* Utilidades. App orientada a reinventar el trueque, facilitando el intercambio de bienes (ropa, libros) y servicios (habilidades profesionales) entre personas de una comunidad.
+      ],
+      [
+        - Exclusiva para iOS (iOS 15.0 o posterior).
+        - Alto consumo de batería por uso de ubicación en segundo plano.
+        - No registrada como comerciante en el Espacio Económico Europeo.
+        - Sin prestaciones de accesibilidad indicadas.
+      ],
+      [
+        - Sin calificaciones ni reseñas suficientes en la App Store para mostrar un promedio.
+        - Ha introducido _Cambalache Premium_ y filtros internacionales (Bogotá, CDMX, Barcelona y Mendoza).
+      ],
+
+      [*Trueque Loco*],
+      [
+        *Categoría:* Redes Sociales. Plataforma de comunidad para trocar, vender o comprar artículos y servicios sin intermediarios ni fronteras.
+      ],
+      [
+        - Inestabilidades de usabilidad (fallos recurrentes en filtros, búsquedas, imágenes y notificaciones).
+        - Proveedor no registrado como comerciante para el Espacio Económico Europeo.
+        - Sin especificaciones de accesibilidad.
+      ],
+      [
+        - Sin volumen suficiente de reseñas en la App Store para calificación pública.
+        - Incentiva interacción con \"Truequinder\" (matchmaking), match parcial y ferias/ventas de garaje.
+      ],
+
+      [*Grupos Informales* \ (Facebook Marketplace / WhatsApp)],
+      [
+        *Canal informal de intercambio y comercio de segunda mano:* Espacios en redes sociales utilizados de manera directa entre usuarios locales sin intermediación tecnológica especializada ni cobro de comisiones.
+      ],
+      [
+        - Ausencia de filtros de seguridad y falta de verificación de identidad.
+        - Vulnerabilidad ante fraudes, estafas o entrega de artículos distintos a lo prometido.
+        - Alta tasa de cancelaciones de última hora y tratos inconclusos.
+        - Inseguridad logística y temor a encuentros con desconocidos en la vía pública.
+      ],
+      [
+        - Constituyen el canal de mayor uso actual en la región para transacciones de segunda mano.
+        - Generan insatisfacción recurrente debido a la falta de información en publicaciones y desconfianza en los tratos.
+      ],
+    ),
+    caption: [Principales competidores de SWAP],
+  ) <competidores>
+
 == Pronóstico de Ventas
 
-Al ser SWAP una plataforma tecnológica de economía colaborativa, el forecast proyecta el volumen de transacciones y captación de suscripciones a partir del mercado objetivo de Coatzacoalcos y Minatitlán y de las preferencias identificadas en la encuesta.
+Al ser SWAP una plataforma tecnológica de economía colaborativa, el forecast proyecta el volumen de transacciones y captación de suscripciones a partir del mercado objetivo de Coatzacoalcos y Minatitlán y de las preferencias identificadas en la encuesta. De la población objetivo se recuperan los siguientes datos:
 
-De la población objetivo se recuperan los siguientes datos:
-
-- Mercado Potencial (63.6% de interés positivo según encuesta): 35,242 personas interesadas.
-- Meta de Captación Año 1 (Estimando captar el 5% del mercado potencial): 1,762 Usuarios Activos Mensuales (MAU).
+- *Mercado Potencial (63.6% de interés positivo según encuesta):* 35,242 personas interesadas.
+- *Meta de Captación Año 1 (Estimando captar el 5% del mercado potencial):* 1,762 Usuarios Activos Mensuales (MAU).
 
 De esta manera, basado en 1,762 MAU con un promedio de actividad de 1 intercambio al mes (1,762 matches mensuales) se proyectan los siguientes ingresos en el primer año:
 
-- Comisiones por match: \$19,822 MXN mensuales (1,322 matches sujetos a tarifa, con un costo de \$15 MXN por match).
-- Suscripciones Premium: \$25,509 MXN mensuales (Considerando una conversión del 29.5% de los MAU a una suscripción de \$49 MXN/mes).
-- Intermediación Logística: \$12,414 MXN mensuales (Considerando que el 70.5% de los intercambios utiliza envío, con un margen operativo de \$10 MXN por guía).
-- Ingreso Total Proyectado: 57,746MXN mensuales (692,947 MXN anuales).
+- *Comisiones por match:* \$19,822 MXN mensuales (1,322 matches sujetos a tarifa, con un costo de \$15 MXN por match).
+- *Suscripciones Premium:* \$25,509 MXN mensuales (Considerando una conversión del 29.5% de los MAU a una suscripción de \$49 MXN/mes).
+- *Intermediación Logística:* \$12,414 MXN mensuales (Considerando que el 70.5% de los intercambios utiliza envío, con un margen operativo de \$10 MXN por guía).
+- *Ingreso Total Proyectado:* 57,746MXN mensuales (692,947 MXN anuales).
 
 
 El flujo de ingresos brutos proyectado de aproximadamente \$57,746 MXN mensuales permitirá financiar gradualmente las actividades de captación de usuarios, publicidad hiperlocal, infraestructura en la nube, consumo de APIs y operación del equipo de desarrollo. La asignación de estos recursos deberá realizarse conforme al presupuesto operativo de SWAP.
 
-Por otro lado, la métrica comercial crítica será incentivar a los 1,762 usuarios activos a publicar al menos 2 a 3 artículos durante su registro. Esto permitiría contar con un catálogo inicial aproximado de 3,524 a 5,286 artículos para facilitar las coincidencias entre usuarios. La plataforma ofrecerá alternativas de entrega en persona, a domicilio y por paquetería, de acuerdo con las preferencias registradas en la encuesta.
+Por otro lado, la métrica comercial crítica será incentivar a los 1,762 usuarios activos a publicar al menos 2 a 3 artículos durante su registro. Esto permitiría contar con un catálogo inicial aproximado de 3,524 a 5,286 artículos para facilitar las coincidencias entre usuarios. La plataforma ofrecerá alternativas de entrega en persona, a domicilio y por paquetería, de acuerdo con las preferencias registradas en la encuesta. En la @tab-proyeccion se muestran los conceptos comerciales en detalle.
 
 #figure(
   table(
