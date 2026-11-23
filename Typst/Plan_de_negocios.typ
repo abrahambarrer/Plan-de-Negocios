@@ -149,11 +149,11 @@
 
 #show: formato_apa.with(
   titulo: "SWAP",
-  autor: "Abraham Giovani Barrera Torres\nErick Yamil Rodríguez Castellanos\n Josué Eliel Rosaldo Santiado\n René Emiliano Sánchez Saucedo",
+  autor: "Abraham Giovani Barrera Torres - S23017343\nErick Yamil Rodríguez Castellanos - S23017379\n Josué Eliel Rosaldo Santiago - S23017357\n René Emiliano Sánchez Saucedo - S23017381",
   afiliacion: "Facultad de Contaduría y Administración, Universidad Veracruzana",
   curso: "Desarrollo de Empresas Tecnológicas",
   instructor: [Mtro.~Arturo Estudillo Quilantan],
-  fecha: "9 de noviembre de 2026",
+  fecha: "22 de noviembre de 2026",
 )
 
 // Primeros títulos sin numeración
@@ -201,13 +201,9 @@ A través del aprovechamiento de herramientas modernas de geolocalización, algo
 
 === Misión
 
-Proporcionar soluciones de software de alta calidad en sistemas complejos priorizando la arquitectura, diseño y seguridad, transformando los desafíos tecnológicos en soluciones innovadoras, confiables y escalables, comprometiéndonos con actuar con ética y transparencia para satisfacer las necesidades de nuestros clientes. 
-
 Conectar a personas y comunidades mediante soluciones tecnológicas innovadoras que faciliten el intercambio justo, seguro y sostenible de bienes en desuso, promoviendo la reducción del desperdicio y redefiniendo el valor de los objetos a través de la economía circular. 
 
 === Visión
-
-Para 2035 encabezar la industria del desarrollo de sistemas de software, distinguiendo la innovación y creatividad para superar las barreras entre clientes y la tecnología. 
 
 Consolidarnos para 2030 como la plataforma tecnológica líder en economía colaborativa e intercambio de bienes a nivel regional, siendo el referente principal en consumo responsable, impacto ambiental positivo y generación de comunidades digitales de confianza mutua. 
 
@@ -339,7 +335,7 @@ El presente estudio de mercado permite determinar las condiciones reales de viab
 
 == Antecedentes
 
-Con el desarrollo del proyecto SWAP, se pretende transformar los hábitos de consumo tradicional de la comunidad juvenil e independiente. En la actualidad, la rápida adopción de bienes han generado que una gran cantidad de artículos en perfecto estado queden almacenados en desuso. Además, las vías informales de trueque o venta de segunda mano (redes sociales o tianguis) presentan barreras críticas de inseguridad, desconfianza e ineficiencia.
+Con el desarrollo del proyecto SWAP, se pretende transformar los hábitos de consumo tradicional de la comunidad juvenil e independiente. En la actualidad, la rápida adopción de bienes ha generado que una gran cantidad de artículos en perfecto estado queden almacenados en desuso. Además, las vías informales de trueque o venta de segunda mano (redes sociales o tianguis) presentan barreras críticas de inseguridad, desconfianza e ineficiencia.
 
 SWAP responde a esta problemática mediante el aprovechamiento de las Tecnologías de la Información y la Comunicación (TIC), integrando algoritmos inteligentes de coincidencia (matchmaking), geolocalización y protocolos de seguridad digital. Al sustituir la coincidencia recíproca directa obligatoria y el intercambio informal por un ecosistema verificado y automatizado, se ofrece a los usuarios la posibilidad de convertir sus bienes en desuso en valor real para adquirir lo que necesitan sin desembolsar dinero en efectivo.
 
@@ -368,16 +364,16 @@ La @grafica-2 muestra una importante masa crítica de bienes inactivos en las ca
 
 #figure(
   image("../images/categorias_articulos.png", width: 6in),
-  caption: [Edad por ocupación.]
+  caption: [Cantidad y categorías de artículos en desuso.]
 ) <grafica-2>
 
 === Destino de artículos en desuso
 
-La @grafica-3 indica que la acumulación (40.9%) o regalar (47.7%) son las salidas predominantes debido a que la venta informal en redes sociales genera desconfianza o requiere un esfuerzo de negociación desproporcionado. La app SWAP puede captar ese 88.6% de usuarios que actualmente regalan o guardan sus artículos, ofreciéndoles una vía estructurada para obtener valor real a cambio de sus pertenecias sin los riesgos del comercio informal en redes.
+La @grafica-3 indica que la acumulación (40.9%) o regalar (47.7%) son las salidas predominantes debido a que la venta informal en redes sociales genera desconfianza o requiere un esfuerzo de negociación desproporcionado. La app SWAP puede captar ese 88.6% de usuarios que actualmente regalan o guardan sus artículos, ofreciéndoles una vía estructurada para obtener valor real a cambio de sus pertenencias sin los riesgos del comercio informal en redes.
 
 #figure(
   image("../images/canales_utilizados.png", width: 6in),
-  caption: [Cantidad y categorías de artículos en desuso.]
+  caption: [Canales utilizados para el intercambio.]
 ) <grafica-3>
 
 === Percepción para generar confianza
@@ -426,7 +422,7 @@ Basado en los resultados obtenidos en la encuesta de validación, se plantean la
 - *Justificación:* El 63.5% de los usuarios tiene como principal preocupación ser estafado o recibir artículos diferentes a lo prometido.
 
 - *Estrategia:* Convertir la seguridad en la principal ventaja competitiva de marketing. Toda la publicidad inicial debe destacar el \"Perfil Verificado\" (el factor que da mayor confianza al 65.4% según la encuesta) y el sistema de entrega segura mediante validación presencial por código QR.
-Mensaje clave: \"El trueque seguro. Sin sorpresas, sin estafas y con perfiles 100% verificados.\
+Mensaje clave: \"El trueque seguro. Sin sorpresas, sin estafas y con perfiles 100% verificados.\"
 
 2. *Campaña de Adquisición Bivalente (Motivaciones de Uso)*
 
@@ -527,7 +523,7 @@ De esta manera, basado en 1,762 MAU con un promedio de actividad de 1 intercambi
 - *Comisiones por match:* \$19,822 MXN mensuales (1,322 matches sujetos a tarifa, con un costo de \$15 MXN por match).
 - *Suscripciones Premium:* \$25,509 MXN mensuales (Considerando una conversión del 29.5% de los MAU a una suscripción de \$49 MXN/mes).
 - *Intermediación Logística:* \$12,414 MXN mensuales (Considerando que el 70.5% de los intercambios utiliza envío, con un margen operativo de \$10 MXN por guía).
-- *Ingreso Total Proyectado:* 57,746MXN mensuales (692,947 MXN anuales).
+- *Ingreso Total Proyectado:* \$57,746 MXN mensuales (\$692,952 MXN anuales).
 
 
 El flujo de ingresos brutos proyectado de aproximadamente \$57,746 MXN mensuales permitirá financiar gradualmente las actividades de captación de usuarios, publicidad hiperlocal, infraestructura en la nube, consumo de APIs y operación del equipo de desarrollo. La asignación de estos recursos deberá realizarse conforme al presupuesto operativo de SWAP.
@@ -565,17 +561,443 @@ Por otro lado, la métrica comercial crítica será incentivar a los 1,762 usuar
 
 == Especificaciones del producto (materia prima e insumos)
 
+El producto ofrecido por SWAP consiste en una suite digital multiplataforma orientada al trueque inteligente P2P (Peer-to-Peer). Para asegurar la robustez, mantenibilidad y escalabilidad del sistema, se han seleccionado insumos tecnológicos y lenguajes de programación de vanguardia que atienden tanto el frontend móvil como la arquitectura del backend en la nube.
+
+=== Componentes de Software y Arquitectura del Producto
+
+La arquitectura del sistema SWAP se desglosa en los siguientes módulos integrados:
+
+- *SWAP App Móvil (Android / iOS):* Cliente móvil nativo o híbrido de alto rendimiento que proporciona la interfaz de usuario para la publicación de artículos, exploración geolocalizada de bienes, chat de negociación en tiempo real y gestión de perfiles.
+- *Algoritmo Matchmaking Engine:* Motor lógico residente en el servidor encargado de procesar algoritmos de recomendación e intercambio multilateral, eliminando la necesidad de coincidencia recíproca obligatoria.
+- *Módulo de Verificación Bilateral QR:* Sistema de autenticación en tiempo real para encuentros físicos presenciales, el cual valida la entrega mediante el escaneo cruzado de códigos QR dinámicos.
+- *Módulo de Intermediación Logística:* Integración vía API con empresas de paquetería para la generación automática de guías de envío y rastreo de paquetes en trueques regionales o nacionales.
+- *Sistema de Reputación y Perfiles Verificados:* Módulo de seguridad comunitaria que almacena valoraciones, historial de transacciones e insignias de verificación basadas en la autenticación de identidad.
+
+=== Materia Prima 
+
+En la industria del software, la materia prima está representada por las herramientas de desarrollo, librerías, entornos de ejecución y servicios de infraestructura que alimentan el proceso de construcción. La @stack resume la especificación técnica de los insumos seleccionados:
+
+#figure(
+  table(
+    columns: (1.2fr, 1.5fr, 2.3fr),
+    inset: 8pt,
+    align: (x, y) => if y == 0 { center + horizon } else { left + horizon },
+    table.header(
+      [*Categoría Tecnológica*],
+      [*Tecnología / Herramienta Seleccionada*],
+      [*Función en el Proyecto SWAP*],
+    ),
+    [Lenguaje Frontend Móvil],
+    [TypeScript (Framework React Native)],
+    [Desarrollo de la aplicación móvil multiplataforma para Android y iOS.],
+
+    [Lenguaje Backend],
+    [Python],
+    [Construcción de APIs RESTful y servicios del motor de matchmaking.],
+
+    [Gestión de Base de Datos],
+    [PostgreSQL con extensión PostGIS / Firebase],
+    [Almacenamiento relacional de datos, perfiles, transacciones y datos geoespaciales.],
+
+    [Servicios de Geolocalización],
+    [Google Maps API],
+    [Asignación de ubicación de artículos y cálculo de distancias de entrega local.],
+
+    [Generación y Validación QR],
+    [Librería qrcode],
+    [Generación de códigos QR encriptados con token temporal para entregas presenciales.],
+
+    [Control de Versiones y CI/CD],
+    [GitHub / GitHub Actions],
+    [Repositorio centralizado de código fuente y automatización de pruebas y despliegue.],
+
+    [Infraestructura Nube (Cloud)],
+    [Amazon Web Services (AWS) / Google Cloud],
+    [Hospedaje de servicios API, bases de datos gestionadas, almacenamiento S3 y balanceadores.],
+  ),
+  caption: [Especificación técnica de insumos y stack tecnológico de SWAP],
+) <stack>
+
 == Proceso de producción
+
+El proceso de producción en SWAP corresponde al ciclo de vida del desarrollo de software. A diferencia de las metodologías secuenciales o rígidas (como RUP), el proyecto adopta una metodología ágil basada en el marco Scrum, estructurada en iteraciones cortas denominadas Sprints de dos semanas de duración. Esta modalidad permite responder rápidamente a los hallazgos de uso del mercado juvenil de la región Coatzacoalcos-Minatitlán y garantiza entregas continuas de valor funcional.
+
+=== Fases del Ciclo de Producción Ágil
+El desarrollo de cada incremento funcional de software sigue una secuencia estructurada dentro del marco Scrum:
+
++ *Gestión del Product Backlog (Planificación de Requerimientos):* El equipo analiza los requerimientos funcionales y no funcionales derivados de la visión de negocio y retroalimentación de usuarios. Las funcionalidades se traducen en Historias de Usuario (User Stories) priorizadas por valor comercial y complejidad técnica.
++ *Sprint Planning (Planificación de la Iteración):* Al inicio de cada Sprint de 14 días, los 4 ingenieros definen el objetivo del Sprint (Sprint Goal) y seleccionan el conjunto de Historias de Usuario que se desarrollarán, asignando tareas específicas a cada integrante.
++ *Ejecución del Sprint y Standups Diarios:* Desarrollo activo del código fuente. Se realizan reuniones diarias de sincronización (Daily meeting) de 15 minutos para monitorear avances, identificar bloqueos técnicos y ajustar la carga de trabajo.
++ *Integración Continua y Pruebas (CI/QA):* Cada componente programado se integra al repositorio central en GitHub. Se ejecutan pruebas unitarias y de integración automáticas para validar la lógica del matchmaking, el encriptado de códigos QR y el correcto cálculo de comisiones.
++ *Sprint Review y Despliegue de Incrementos:* Presentación del prototipo ejecutable al final del Sprint. Tras la aprobación interna de calidad, el incremento se despliega en el entorno de pruebas (Staging) o producción (Release en Google Play y App Store).
++ *Retrospectiva del Sprint:* Evaluación interna del proceso de trabajo para identificar áreas de mejora operacional, optimización de código y ajustes en la estimación de esfuerzos.
+
+En la @proceso se muestra un diagrama de flujo del proceso de Scrum.
+
+#[
+  #set page(flipped: true)
+  #align(center + horizon)[
+    #figure(
+      image("../images/proceso.jpeg", width: 120%),
+      caption: [Marco de trabajo ágil Scrum.]
+    ) <proceso>
+  ]
+]
+=== Flujo Principal de Operación del Negocio
+
+Más allá de la programación del sistema, el proceso productivo de SWAP se materializa en el flujo mediante el cual la aplicación genera valor para los usuarios y captura ingresos para la empresa. Como se muestra en la @flujo-procesos, el ciclo operativo del negocio se ejecuta en cuatro momentos clave:
+
+- *Activación de oferta y demanda (Publicación y Match):* El usuario alimenta el inventario digital al publicar sus artículos en desuso y explora el catálogo hasta lograr una coincidencia (match) gracias al algoritmo de recomendación. Este paso es gratuito para eliminar barreras de entrada y fomentar el efecto de red.   
+- *Conversión y monetización directa (Acuerdo y Comisión):* Una vez que ambas partes confirman el interés en el intercambio, el sistema formaliza el trato mediante el cobro de la tarifa por servicio (\$15.00 MXN por intercambio exitoso), activando el primer flujo de ingresos del modelo de negocio.   
+  - *Ejecución logística:* El flujo se divide según la modalidad elegida para concretar el trueque:   Modalidad Local (Presencial): Se habilita la coordinación de un punto seguro y la validación física mediante el escaneo cruzado de códigos QR, garantizando la seguridad de la entrega sin costos adicionales de transporte.   
+  - *Modalidad Regional o Nacional:* El sistema genera automáticamente una guía de paquetería con rastreo integrado, activando la segunda fuente de ingresos del negocio a través del margen de intermediación logística (\$10.00 MXN por guía).   
+- *Cierre de ciclo y retención (Confirmación y Reputación):* Tras verificar la recepción del artículo, los usuarios califican la transacción. Esto alimenta el sistema de reputación y confianza comunitaria, incentivando la recurrencia de uso dentro de la plataforma.
+
+#figure(
+  image("../images/diagrama_flujo_procesos.jpeg", width: 2in),
+  caption: [Flujo de intercambio.]
+) <flujo-procesos>
 
 == Tecnología (equipo e instalaciones)
 
+La selección de equipo de cómputo e infraestructura de trabajo se calibró para brindar a los 4 desarrolladores el entorno óptimo de alto rendimiento necesario para compilar aplicaciones móviles, simular entornos multiservicio en contenedores y ejecutar bases de datos locales sin cuellos de botella.
+
+=== Equipo de Cómputo Óptimo de Desarrollo
+
+Para el desarrollo del proyecto SWAP, cada uno de los 4 integrantes del equipo contará con una estación de trabajo móvil/escritorio de alta gama. Las especificaciones mínimas requeridas se detallan a continuación:
+
+- *Estaciones de Trabajo de Desarrollo (4 unidades):*
+  - Procesador: Apple M2/M3 Pro o Intel Core i5/i7 de 13ª generación (mínimo 8 núcleos).
+  - Memoria RAM: 16 GB DDR5 o Memoria Unificada (indispensable para la ejecución simultánea de emuladores de Android Studio, Xcode y Docker).
+  - Almacenamiento: SSD NVMe M.2 de 1TB (velocidad de lectura/escritura superior a 3500 MB/s).
+  - Pantalla secundaria: Monitor de 27 pulgadas 4K IPS con soporte ergonómico para trabajo multipantalla.
+  - Periféricos: Teclado, ratón de precisión y diadema para reuniones virtuales.
+- *Dispositivos de Prueba Físicos (2 unidades):*
+  - Un smartphone Android gama media-alta (ej. Samsung Galaxy S series o Google Pixel) para validación de cámara/código QR y geolocalización.
+  - Un smartphone iOS (iPhone 13 o posterior) para pruebas de despliegue en la App Store y compatibilidad visual.
+- *Infraestructura de Red y Servidor Local:*
+  - Router Empresarial Wi-Fi 6 de triple banda con soporte para redes VLAN.
+  - Switch Administrable Gigabit de 8 puertos.
+  - Unidad de Respaldo de Energía (UPS) de 1500 VA / 900 W para mantener encendidos los equipos y la red ante cortes de energía eléctrica.
+
+=== Instalaciones Climáticas y ambientales
+
+Debido a que el desarrollo del proyecto SWAP se realiza en la región geográfica de Coatzacoalcos-Minatitlán, caracterizada por un clima cálido-húmedo con temperaturas promedio superiores a los 30°C y elevada humedad relativa, las instalaciones de oficina requieren condiciones ambientales estrictamente controladas:
+
+- *Climatización:* Se especifica la instalación de un sistema de aire acondicionado tipo MiniSplit de 24,000 BTU Inverter, manteniendo una temperatura de 21°C a 23°C para prevenir el sobrecalentamiento del equipo y garantizar el bienestar del personal.
+- *Iluminación:* Luz blanca neutra distribuida de manera uniforme sobre el área de trabajo para evitar la fatiga visual durante prolongadas jornadas de programación.
+
 == Capacidad instalada, inventarios, ubicación y diseño de planta y oficina
+
+=== Capacidad Instalada y Proyección de Usuarios
+
+En una empresa de software como SWAP, la capacidad instalada no se mide en unidades físicas fabricadas por maquinaria, sino en la  capacidad del equipo de desarrollo para liberar incrementos de software  y en la  capacidad de la infraestructura cloud para procesar transacciones concurrentes.
+
+- *Capacidad de Desarrollo:*  Basado en la metodología ágil con 4 ingenieros dedicados, la capacidad de producción estimada es de  26 Sprints al año , lo que representa la liberación de 12 a 15 actualizaciones mayores de la aplicación y el mantenimiento continuo del motor de coincidencia.
+- *Capacidad de Infraestructura Digital:*  La arquitectura en la nube de SWAP está dimensionada y calibrada estrictamente para responder a la meta operativa del Año 1 proyectada en el estudio de mercado: una base de  1,762 Usuarios Activos Mensuales (MAU)  (calculada al captar el 5% del mercado potencial de 35,242 jóvenes interesados en Coatzacoalcos y Minatitlán). La plataforma está optimizada para procesar un volumen promedio de  1,762 matches o intercambios mensuales  (21,144 intercambios anuales) y  1,241 guías logísticas automatizadas al mes  (14,892 guías al año), manteniendo una disponibilidad del servicio ( uptime ) del 99.9%.
+
+=== Inventarios
+
+SWAP no mantiene inventarios físicos de bienes de consumo, ya que los artículos intercambiados pertenecen a los usuarios y no ingresan a los almacenes de la empresa. La gestión de inventario en SWAP es  100% digital:
+- *Inventario Digital de Artículos:*  Base de datos estructurada con el catálogo activo de objetos publicados por los usuarios. Conforme a las métricas comerciales del proyecto, se establece como meta crítica incentivar a los 1,762 usuarios activos a publicar entre 2 y 3 artículos durante su registro, consolidando un catálogo activo inicial estimado de  3,524 a 5,286 artículos o bienes en inventario digital  para facilitar las coincidencias del algoritmo.
+- *Inventario de Licencias y Dominios:*  Resguardo de claves criptográficas, certificados SSL/TLS, tokens de acceso a APIs de paquetería y registros de marca ante el IMPI e INDAUTOR.
+
+=== Ubicación de la Oficina
+
+La ubicación física del centro de desarrollo de SWAP se define de manera estratégica dentro del núcleo urbano de la región Coatzacoalcos-Minatitlán, garantizando acceso a servicios de fibra óptica de alta velocidad y cercanía con el segmento objetivo universitario.
+
+- *Dirección / Ubicación:* Av. Universidad km 7.5, Col. Santa Isabel, C.P. 96538, Coatzacoalcos, Veracruz. 
+
+=== Diseño de Planta y Distribución de la Oficina
+
+La oficina de desarrollo de SWAP está diseñada bajo un concepto de espacio colaborativo ágil sobre una superficie de *45 m² (6.5 m x 7.0 m)*, optimizada para la interacción del equipo. La @oficina muestra los detalles de la oficina de trabajo.
+
+#figure(
+  table(
+    columns: (1.5fr, 0.9fr, 2.8fr),
+    inset: 8pt,
+    align: (x, y) => if y == 0 { center + horizon } else { left + horizon },
+    table.header(
+      [*Área Funcional*],
+      [*Dimensión Aproximada*],
+      [*Equipamiento e Instalaciones*],
+    ),
+    [*Área de Desarrollo Ágil*],
+    [24 m#super[2]],
+    [Ensamble central de 4 escritorios ergonómicos enfrentados, canaletas ocultas para cableado estructurado y sillas ejecutivas de malla.],
+
+    [*Área de Daily Standup y Planificación*],
+    [12 m#super[2]],
+    [Pizarrón de cristal templado para diagramación y tablero Kanban, complementado con pantalla Smart TV de 45" para revisiones de código.],
+
+    [*SITE y Comunicaciones*],
+    [3 m#super[2]],
+    [Módem de fibra óptica simétrica, router Wi-Fi 6, switch de 8 puertos y UPS de 1500 VA.],
+
+    [*Servicios e Hidratación*],
+    [6 m#super[2]],
+    [Sanitarios privados y estación de cafetería/agua para el personal.],
+  ),
+  caption: [Distribución de planta y equipamiento de la oficina de desarrollo SWAP],
+) <oficina>
+
+En la @croquis y @vista-3D se muestra el croquis y una vista simulada de la oficina respectivamente.
+
+#figure(
+  image("../images/croquis.png", width: 5in),
+  caption: [Croquis de la oficina.]
+) <croquis>
+
+#figure(
+  image("../images/oficina.png", width: 5in),
+  caption: [Visualización de la oficina.]
+) <vista-3D>
 
 == Mano de obra requerida
 
+El recurso humano de SWAP está conformado integralmente por el equipo de 4 ingenieros de software. Al tratarse de una célula de desarrollo ágil reducida, se adopta un esquema de roles polivalentes, donde cada integrante asume responsabilidades clave acordes a sus fortalezas técnicas, garantizando la cobertura total del ciclo de vida del software.
+
+=== Matriz de Roles y Asignación de Funciones
+
+La distribución de responsabilidades entre los 4 integrantes del equipo se estructura formalmente como se presenta en la @roles:
+
+#figure(
+  table(
+    columns: (1.2fr, 1.1fr, 3.2fr),
+    inset: 8pt,
+    align: (x, y) => if y == 0 { center + horizon } else { left + horizon },
+    table.header(
+      [*Integrante del Equipo*],
+      [*Rol Principal en Scrum*],
+      [*Responsabilidades Técnicas y Operativas*],
+    ),
+    [*Abraham Giovani Barrera Torres*],
+    [Lead Developer & Backend Architect],
+    [Diseño de la arquitectura de backend en Node.js/Python, desarrollo del motor algorítmico de matchmaking, gestión de bases de datos PostgreSQL y optimización de consultas.],
+
+    [*Josué Eliel Rosaldo Santiago*],
+    [Frontend & Mobile Developer],
+    [Desarrollo de la aplicación móvil en React Native/Flutter, implementación de la interfaz de usuario (UI/UX), integración del lector de código QR y animaciones.],
+
+    [*Erick Yamil Rodríguez Castellanos*],
+    [DevOps & Security Engineer],
+    [Configuración de infraestructura en la nube (AWS), automatización de pipelines CI/CD, gestión de seguridad de datos (LFPDPPP), cifrado de comunicaciones y pruebas de penetración.],
+
+    [*René Emiliano Sánchez Saucedo*],
+    [Product Owner & QA Lead],
+    [Gestión del Product Backlog, especificación de historias de usuario, coordinación con paqueterías/APIs externas, diseño de pruebas funcionales y aseguramiento de la calidad.],
+  ),
+  caption: [Matriz de roles y asignación de funciones del equipo SWAP],
+) <roles>
+
 == Procedimiento de mejora continua
 
+Para garantizar que la plataforma SWAP cumpla con elevados estándares de confiabilidad, rendimiento y seguridad digital, el proyecto adopta el marco de calidad normativo mexicano para la industria del software, haciendo referencia a la norma NMX-I-059-NYCE (MoProSoft) y estándares de la serie NMX-I-055 (Modelo de Calidad de Software).
+
+=== Puntos de Control y Pruebas de Calidad
+
+El plan de calidad establece puntos de verificación obligatorios en cada fase del desarrollo:
++ *Revisión de Código (Code Review):* Ningún código se integra a la rama principal de producción sin la revisión cruzada y aprobación de al menos dos desarrolladores del equipo.
++ *Pruebas Automáticas Unitarias y de Integración:* Verificación automática de funciones críticas, como el cálculo exacto de la tarifa de \$15 MXN por intercambio, el descuento del 20% en guías para usuarios Premium y la expiración de tokens QR.
++ *Pruebas de Carga y Estrés:* Simulación de accesos concurrentes para asegurar que la plataforma mantenga tiempos de respuesta inferiores a 2.0 segundos ante picos de tráfico regional.
++ *Auditoría de Seguridad y Privacidad:* Verificación del cumplimiento del Aviso de Privacidad y encriptación de datos sensibles bajo la Ley Federal de Protección de Datos Personales en Posesión de los Particulares (LFPDPPP).
+
+=== Mejora Continua
+
+La mejora continua en SWAP se formaliza mediante la aplicación del ciclo Planear-Hacer-Verificar-Actuar (PHVA):
+
++ *Planear:* Análisis de métricas operacionales (tasa de error en la app, tiempo de respuesta en coincidencia de trueques) y retroalimentación de las encuestas de usuarios.
++ *Hacer:* Implementación de parches de optimización y nuevas funcionalidades en los Sprints ágiles.
++ *Verificar:* Evaluación cuatrimestral del desempeño del servicio mediante indicadores clave de rendimiento (KPIs), comparando la disponibilidad real contra el objetivo del 99.9%.
++ *Actuar:* Refactorización de componentes lógicos que presenten cuellos de botella y actualización periódica del plan de seguridad informática.
+
 == Costo de producción
+
+A continuación se detalla la inversión requerida para habilitar la infraestructura técnica, el equipamiento, las herramientas de desarrollo y los costos operativos del proyecto SWAP.
+
+=== Inversión en Activo Fijo
+
+Los gastos en activo fijo se muestran en la @activos.
+
+#figure(
+  table(
+    columns: (0.7fr, 2.8fr, 1.2fr, 1.2fr),
+    inset: 8pt,
+    align: (x, y) => if y == 0 { center + horizon } else if x == 0 { center + horizon } else if x >= 2 { right + horizon } else { left + horizon },
+    table.header(
+      [*Cantidad*],
+      [*Concepto / Descripción*],
+      [*Precio Unitario (MXN)*],
+      [*Costo Total (MXN)*],
+    ),
+    [4],
+    [Estación de trabajo de desarrollo (Laptop Asus Tuf A16 Ryzen 7 16 GB RAM)],
+    [\$25,000.00],
+    [\$100,000.00],
+
+    [4],
+    [Monitor profesional 27" 4K IPS],
+    [\$3,500.00],
+    [\$14,000.00],
+
+    [2],
+    [Dispositivos de prueba móvil (1 Android gama alta / 1 iPhone)],
+    [\$15,000.00],
+    [\$30,000.00],
+
+    [1],
+    [Kit de Red Empresarial (Router Wi-Fi 6, Switch 8p, Rack)],
+    [\$12,000.00],
+    [\$12,000.00],
+
+    [1],
+    [No-Break / UPS Empresarial 1500 VA],
+    [\$6,000.00],
+    [\$6,000.00],
+
+    [*Total*],
+    [*Activo Fijo Tecnológico*],
+    [],
+    [*\$162,000.00*],
+  ),
+  caption: [Inversión en activo fijo tecnológico del proyecto SWAP],
+) <activos>
+
+=== Inversión en Mobiliario y Equipo de Oficina
+
+En la @mobiliario se muestran los gastos en mobiliario y equipo de la oficina.
+
+#figure(
+  table(
+    columns: (0.7fr, 2.8fr, 1.2fr, 1.2fr),
+    inset: 8pt,
+    align: (x, y) => if y == 0 { center + horizon } else if x == 0 { center + horizon } else if x >= 2 { right + horizon } else { left + horizon },
+    table.header(
+      [*Cantidad*],
+      [*Concepto / Descripción*],
+      [*Precio Unitario (MXN)*],
+      [*Costo Total (MXN)*],
+    ),
+    [4],
+    [Escritorio ejecutivo ergonómico],
+    [\$3,500.00],
+    [\$14,000.00],
+
+    [4],
+    [Silla ergonómica de malla de alta densidad (tipo gerencial)],
+    [\$1,500.00],
+    [\$6,000.00],
+
+    [1],
+    [Pintarrón de cristal templado 2.0 m x 1.2 m],
+    [\$2,000.00],
+    [\$2,000.00],
+
+    [1],
+    [Pantalla Smart TV 45" para revisiones de código],
+    [\$7,000.00],
+    [\$7,000.00],
+
+    [1],
+    [Minisplit 24,000 BTU Inverter (Aire Acondicionado)],
+    [\$14,000.00],
+    [\$14,000.00],
+
+    [1],
+    [Juego de estantes y archivero de seguridad],
+    [\$4,000.00],
+    [\$4,000.00],
+
+    [*Total*],
+    [*Mobiliario y Equipamiento de Oficina*],
+    [],
+    [*\$47,000.00*],
+  ),
+  caption: [Inversión en mobiliario y equipamiento de oficina del proyecto SWAP],
+) <mobiliario>
+
+=== Insumos Tecnológicos y Gastos Operativos Mensuales
+
+En la @insumos-tecnologicos se proyectan los gastos en insumos tecnológicos. Para la estimación final se contemplan los gastos a 1 año.
+
+#figure(
+  table(
+    columns: (1.5fr, 2.8fr, 1.2fr),
+    inset: 8pt,
+    align: (x, y) => if y == 0 { center + horizon } else if x == 2 { right + horizon } else { left + horizon },
+    table.header(
+      [*Concepto / Servicio*],
+      [*Descripción del Servicio*],
+      [*Costo Mensual (MXN)*],
+    ),
+    [Infraestructura Nube (AWS / GCP)],
+    [Servidores de aplicaciones, base de datos gestionada PostgreSQL y almacenamiento S3],
+    [\$4,500.00],
+
+    [Licencias de Desarrollo y Herramientas],
+    [IDEs (VS Code), Docker Pro, GitHub Enterprise, Figma],
+    [\$2,200.00],
+
+    [Consumo de APIs Externas],
+    [Google Maps Platform, servicios de envío de SMS/OTP],
+    [\$1,800.00],
+
+    [Cuentas de Desarrollador],
+    [Cuota prorrateada de Google Play Console],
+    [\$300.00],
+
+    [Servicios Públicos e Internet],
+    [Fibra óptica simétrica empresarial 300 Mbps y energía eléctrica comercial],
+    [\$3,200.00],
+
+    [Renta de Oficina (45 m#super[2])],
+    [Arrendamiento de espacio comercial en Coatzacoalcos-Minatitlán],
+    [\$8,000.00],
+
+    [*Total*],
+    [*Costo Operativo Mensual de Desarrollo*],
+    [*\$20,000.00*],
+  ),
+  caption: [Insumos tecnológicos y gastos operativos mensuales del proyecto SWAP],
+) <insumos-tecnologicos>
+
+=== Resumen de Costos de Producción
+
+El costo total de la etapa de desarrollo y puesta en marcha del proyecto SWAP combina la inversión inicial en infraestructura con el costo operativo de mano de obra durante el primer año:
+
+- *Inversión Inicial en Activos (Fijo + Mobiliario):* \$209,000.00 MXN.
+- *Costo Operativo Anual de Insumos y Servicios:* \$240,000.00MXN (20,000.00 MXN mensuales).
+- *Costos de Imprevistos:* \$22,450.00 MXN.
+- *Costo Total de Producción (Año 1):* \$471,450.00 MXN, monto que se amortiza y cubre holgadamente con la proyección de flujo de caja bruto anual estimado de \$692,947.00 MXN generado por las comisiones de trueque, membresías Premium y márgenes logísticos de la plataforma.
+
+La @resumen-costos muestra el resumen de costos de producción.
+
+#figure(
+  table(
+    columns: (2.2fr, 1.5fr),
+    inset: 8pt,
+    align: (x, y) => if x == 1 { right + horizon } else { left + horizon },
+    table.header(
+      [*Concepto*],
+      [*Costo en pesos*],
+    ),
+    [Inversión en activos fijos],
+    [\$162,000.00 MXN],
+
+    [Inversión en mobiliario],
+    [\$47,000.00 MXN],
+
+    [Insumos tecnológicos (costo anual)],
+    [\$240,000.00 MXN],
+
+    [Imprevistos (5%)],
+    [\$22,450.00 MXN],
+
+    [*Total*],
+    [*\$471,450.00 MXN*],
+  ),
+  caption: [Resumen de costos de producción (Año 1) de SWAP],
+) <resumen-costos>
 
 = Responsabilidad Social
 
@@ -615,11 +1037,26 @@ Por otro lado, la métrica comercial crítica será incentivar a los 1,762 usuar
 
 #pagebreak()
 
-#set heading(numbering: none)
+#[
+  #set page(flipped: true)
 
-= Anexos
+  #set heading(numbering: none)
 
-+ Organigrama
+  = Anexos
+
+  == Organigrama
+  Con el propósito de garantizar una operación integral que respalde tanto el desarrollo continuo de la plataforma como su viabilidad comercial y administrativa, SWAP adopta una estructura organizacional funcional encabezada por los 9 socios fundadores. Los 4 integrantes del área técnica operan de tiempo completo en la oficina central de desarrollo, mientras que los 5 socios encargados de las funciones administrativas, financieras y comerciales desempeñan sus labores bajo un esquema remoto y de gestión estratégica.
+
+  Como se muestra en la @organigrama, la empresa distribuye sus responsabilidades estratégicas y operativas en tres grandes direcciones: el Área de Administración y Finanzas, el Área de Tecnología y Producto y el Área de Marketing y Comercialización.
+  #align(center + horizon)[
+    #figure(
+      image("../images/organigrama.png", width: 100%),
+      caption: [Estructura organizacional de SWAP.]
+    ) <organigrama>
+  ]
+]
+
+#pagebreak()
 + Análisis y descripción de puestos
 + Administración de sueldos y salarios
 
