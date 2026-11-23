@@ -638,7 +638,7 @@ En la @proceso se muestra un diagrama de flujo del proceso de Scrum.
   #set page(flipped: true)
   #align(center + horizon)[
     #figure(
-      image("../images/proceso.jpeg", width: 120%),
+      image("../images/proceso.png", width: 110%),
       caption: [Marco de trabajo ágil Scrum.]
     ) <proceso>
   ]
@@ -654,7 +654,7 @@ Más allá de la programación del sistema, el proceso productivo de SWAP se mat
 - *Cierre de ciclo y retención (Confirmación y Reputación):* Tras verificar la recepción del artículo, los usuarios califican la transacción. Esto alimenta el sistema de reputación y confianza comunitaria, incentivando la recurrencia de uso dentro de la plataforma.
 
 #figure(
-  image("../images/diagrama_flujo_procesos.jpeg", width: 2in),
+  image("../images/diagrama_flujo_procesos.png", width: 2in),
   caption: [Flujo de intercambio.]
 ) <flujo-procesos>
 
