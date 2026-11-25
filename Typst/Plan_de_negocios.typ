@@ -187,7 +187,7 @@ SWAP se posiciona como una respuesta moderna y sustentable al sobreconsumo, exte
 
 == Descripción de la empresa
 
-Swap es una aplicación móvil diseñada para revolucionar el trueque tradicional, convirtiéndolo en un proceso ágil, seguro y accesible. La plataforma elimina la barrera principal del intercambio directo (la necesidad de coincidencia perfecta entre dos personas) integrando un sistema híbrido de trueque directo (P2P).
+Swap es una aplicación móvil diseñada para revolucionar el trueque tradicional, convirtiéndolo en un proceso ágil, seguro y accesible. La plataforma elimina la barrera principal del intercambio directo (la necesidad de coincidencia perfecta entre dos personas) integrando un sistema de trueque directo (P2P).
 
 Swap fomenta la economía circular, permitiendo a los usuarios convertir objetos que ya no utilizan (ropa, tecnología, libros, artículos del hogar) en bienes o servicios que realmente necesitan, minimizando el gasto de dinero y reduciendo el impacto ambiental del consumo masivo.
 
@@ -373,12 +373,12 @@ La @grafica-3 indica que la acumulación (40.9%) o regalar (47.7%) son las salid
 
 #figure(
   image("../images/canales_utilizados.png", width: 6in),
-  caption: [Canales utilizados para el intercambio.]
+  caption: [Destino de los artículos de segunda mano.]
 ) <grafica-3>
 
 === Percepción para generar confianza
 
-En la @grafica-4 se observa que la identidad validada de los usuarios y el sistema de reputación comunitaria deben ser visibles desde el primer contacto en la plataforma. La combinación de una alta intención de uso (63.6%) con la demanda explícita de perfiles verificados confirma que la propuesta de valor responde directamente a los dolores del consumidor.
+En la @grafica-4 se observa que la identidad validada de los usuarios y el sistema de reputación comunitaria deben ser visibles desde el primer contacto en la plataforma. La combinación de interés (63.6%) y alto interés (29.5%) con la demanda explícita de perfiles verificados confirma que la propuesta de valor responde directamente a los dolores del consumidor.
 
 #figure(
   image("../images/generar_confianza.png", width: 6in),
@@ -396,7 +396,7 @@ De la @grafica-5 se interpreta que el temor a ser engañado con el estado real d
 
 === Medios de monetización
 
-En la @grafica-6 se visualiza la  preferencia del monto de tarifa por intercambio exitoso en el rango de \$10 a \$20 MXN se alinea con las expectativas de casi la mitad del mercado, permitiendo monetizar al segmento universitario. La @grafica-7 se ve que existe una alta aceptación por probar la suscripción tras un periodo gratuito (43.2%) sugiere implementar un modelo freemium con prueba de 30 días para maximizar la tasa de conversión a suscripciones de pago. Por último, la @grafica-8 indica que la mayor parte del público acepta el pago por envío bajo un precio razonable.
+En la @grafica-6 se visualiza la  preferencia del monto de tarifa por intercambio exitoso en el rango de \$11 a \$20 MXN se alinea con las expectativas de casi la mitad del mercado, permitiendo monetizar al segmento universitario. La @grafica-7 se ve que existe una alta aceptación por probar la suscripción tras un periodo gratuito (43.2%) sugiere implementar un modelo freemium con prueba de 30 días para maximizar la tasa de conversión a suscripciones de pago. Por último, la @grafica-8 indica que la mayor parte del público acepta el pago por envío bajo un precio razonable.
 
 #figure(
   image("../images/intercambio.png", width: 6in),
@@ -419,14 +419,14 @@ Basado en los resultados obtenidos en la encuesta de validación, se plantean la
 
 1. *Posicionamiento de Marca: \"Seguridad como Eje Central\"*
 
-- *Justificación:* El 63.5% de los usuarios tiene como principal preocupación ser estafado o recibir artículos diferentes a lo prometido.
+- *Justificación:* El 72.7% de los usuarios tiene como principal preocupación ser estafado o recibir artículos diferentes a lo prometido.
 
-- *Estrategia:* Convertir la seguridad en la principal ventaja competitiva de marketing. Toda la publicidad inicial debe destacar el \"Perfil Verificado\" (el factor que da mayor confianza al 65.4% según la encuesta) y el sistema de entrega segura mediante validación presencial por código QR.
+- *Estrategia:* Convertir la seguridad en la principal ventaja competitiva de marketing. Toda la publicidad inicial debe destacar el \"Perfil Verificado\" (el factor que da mayor confianza al 40.9% según la encuesta) y el sistema de entrega segura mediante validación presencial por código QR.
 Mensaje clave: \"El trueque seguro. Sin sorpresas, sin estafas y con perfiles 100% verificados.\"
 
 2. *Campaña de Adquisición Bivalente (Motivaciones de Uso)*
 
-- *Justificación:* Las motivaciones para usar la app están perfectamente divididas en la región: Ahorrar dinero (34.6%) y Liberar espacio en casa (34.6%).
+- *Justificación:* Las motivaciones para usar la app están perfectamente divididas en la región: Ahorrar dinero (27.3%) y Liberar espacio en casa (29.5%).
 - *Estrategia:* Ejecutar campañas publicitarias dirigidas al segmento joven de Coatzacoalcos-Minatitlán (especialmente universitarios e independientes) abordando directamente ambos dolores.
 
   - *Mensaje A (Ahorro):* \"Renueva tu tecnología y tu clóset sin gastar un peso. Intercambia lo que ya no usas.\"
@@ -435,9 +435,9 @@ Mensaje clave: \"El trueque seguro. Sin sorpresas, sin estafas y con perfiles 10
 
 3. *Estrategia de Precios: Micro-pagos y Prueba Premium (Sampling)*
 
-- *Justificación:* El 36.5% considera justa una tarifa de intercambio de entre \$11 a \$20. Además, el 44.2% pagaría una suscripción premium, pero solo después de probarla gratis.
+- *Justificación:* El 29.5% considera justa una tarifa de intercambio de entre \$11 a \$20. Además, el 43.2% pagaría una suscripción premium, pero solo después de probarla gratis.
 
-- *Estrategia:* Fijar la comisión por trueque exitoso en un micro-pago accesible de \$15.00 MXN para no generar fricción. Lanzar la plataforma ofreciendo el \"Primer Mes de SWAP Premium Gratis\". Que los nuevos usuarios experimenten de inmediato los beneficios de envíos más baratos (aprovechando que el 78.8% pagaría el envío si es justo) y el sello de verificación, incrementando así la tasa de retención mensual posterior.
+- *Estrategia:* Fijar la comisión por trueque exitoso en un micro-pago accesible de \$15.00 MXN para no generar fricción. Lanzar la plataforma ofreciendo el \"Primer Mes de SWAP Premium Gratis\". Que los nuevos usuarios experimenten de inmediato los beneficios de envíos más baratos (aprovechando que el 70.5% pagaría el envío si es justo) y el sello de verificación, incrementando así la tasa de retención mensual posterior.
 
 4. *Distribución: Canales de Acceso y Logística*
 
@@ -551,7 +551,7 @@ Por otro lado, la métrica comercial crítica será incentivar a los 1,762 usuar
     [Ingresos por Suscripción], [Membresías activas de \$49 MXN al mes], [\$25,509 MXN / mes],
     [Ingresos por Logística], [Margen de intermediación de \$10 MXN por guía], [\$12,414 MXN / mes],
     [Ingresos Totales Mensuales], [Flujo de ingresos brutos mensuales (suma de líneas)], [\$57,746 MXN / mes],
-    [Proyección Anual (Año 1)], [Ingresos brutos estimados a 12 meses de operación], [\$692,947 MXN / año],
+    [Proyección Anual (Año 1)], [Ingresos brutos estimados a 12 meses de operación], [\$692,952 MXN / año],
   ),
   caption: [Proyección comercial y financiera mensual y anual (Año 1).],
 ) <tab-proyeccion>
@@ -968,7 +968,7 @@ El costo total de la etapa de desarrollo y puesta en marcha del proyecto SWAP co
 - *Inversión Inicial en Activos (Fijo + Mobiliario):* \$209,000.00 MXN.
 - *Costo Operativo Anual de Insumos y Servicios:* \$240,000.00MXN (20,000.00 MXN mensuales).
 - *Costos de Imprevistos:* \$22,450.00 MXN.
-- *Costo Total de Producción (Año 1):* \$471,450.00 MXN, monto que se amortiza y cubre holgadamente con la proyección de flujo de caja bruto anual estimado de \$692,947.00 MXN generado por las comisiones de trueque, membresías Premium y márgenes logísticos de la plataforma.
+- *Costo Total de Producción (Año 1):* \$471,450.00 MXN, monto que se amortiza y cubre holgadamente con la proyección de flujo de caja bruto anual estimado de \$692,952.00 MXN generado por las comisiones de trueque, membresías Premium y márgenes logísticos de la plataforma.
 
 La @resumen-costos muestra el resumen de costos de producción.
 
