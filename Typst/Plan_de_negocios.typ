@@ -347,52 +347,27 @@ Los datos obtenidos revelan hallazgos clave sobre la oferta acumulada y la deman
 
 === Datos demográficos
 
-Como se observa en la @grafica-1, el público interesado se concentra en jóvenes universitarios de la región Coatzacoalcos-Minatitlán. Al ser estudiantes con ingresos monetarios limitados o dependientes de presupuestos escolares, la propuesta de adquirir bienes mediante trueque sin desembolso monetario directo resulta atractiva. Los datos se distribuyen de la siguiente manera:
+Como se observa en la @grafica-1 (incluida en el apartado de Anexos), el público interesado se concentra en jóvenes universitarios de la región Coatzacoalcos-Minatitlán. Al ser estudiantes con ingresos monetarios limitados o dependientes de presupuestos escolares, la propuesta de adquirir bienes mediante trueque sin desembolso monetario directo resulta atractiva. Los datos se distribuyen de la siguiente manera:
 
 - *Edad:* El 81.8% (36 de 44 encuestados) pertenece al rango de 18 a 24 años, mientras que los rangos de 25 a 34 años y 45 años o más representan un 9.1% cada uno.
 - *Ocupación:* El 54.5% únicamente estudia, el 20.5% estudia y trabaja, el 18.2% trabaja y el 6.8% se dedica al hogar.
 - *Ubicación:* La mayor concentración se ubica en Coatzacoalcos (47.7%) y Minatitlán (18.2%), seguidos de Cosoleacaque (6.8%) y Nanchital (6.8%).
 
-#figure(
-  image("../images/edad_ocupacion.png", width: 6in),
-  caption: [Edad por ocupación]
-) <grafica-1>
-
 === Artículos en desuso
 
-La @grafica-2 muestra una importante masa crítica de bienes inactivos en las casas de los usuarios. Más del 60% de la muestra cuenta con al menos 6 objetos listos para intercambiar. La ropa y la tecnología representan más del 72% de los bienes estancados. Enfocar las campañas iniciales en estas dos categorías garantizará coincidencias rápidas (matches) en la aplicación.
-
-#figure(
-  image("../images/categorias_articulos.png", width: 6in),
-  caption: [Cantidad y categorías de artículos en desuso.]
-) <grafica-2>
+La @grafica-2 (ver Anexos) muestra una importante masa crítica de bienes inactivos en las casas de los usuarios. Más del 60% de la muestra cuenta con al menos 6 objetos listos para intercambiar. La ropa y la tecnología representan más del 72% de los bienes estancados. Enfocar las campañas iniciales en estas dos categorías garantizará coincidencias rápidas (matches) en la aplicación.
 
 === Destino de artículos en desuso
 
-La @grafica-3 indica que la acumulación (40.9%) o regalar (47.7%) son las salidas predominantes debido a que la venta informal en redes sociales genera desconfianza o requiere un esfuerzo de negociación desproporcionado. La app SWAP puede captar ese 88.6% de usuarios que actualmente regalan o guardan sus artículos, ofreciéndoles una vía estructurada para obtener valor real a cambio de sus pertenencias sin los riesgos del comercio informal en redes.
-
-#figure(
-  image("../images/canales_utilizados.png", width: 6in),
-  caption: [Destino de los artículos de segunda mano.]
-) <grafica-3>
+La @grafica-3 (ver Anexos) indica que la acumulación (40.9%) o regalar (47.7%) son las salidas predominantes debido a que la venta informal en redes sociales genera desconfianza o requiere un esfuerzo de negociación desproporcionado. La app SWAP puede captar ese 88.6% de usuarios que actualmente regalan o guardan sus artículos, ofreciéndoles una vía estructurada para obtener valor real a cambio de sus pertenencias sin los riesgos del comercio informal en redes.
 
 === Percepción para generar confianza
 
-En la @grafica-4 se observa que la identidad validada de los usuarios y el sistema de reputación comunitaria deben ser visibles desde el primer contacto en la plataforma. La combinación de interés (63.6%) y alto interés (29.5%) con la demanda explícita de perfiles verificados confirma que la propuesta de valor responde directamente a los dolores del consumidor.
-
-#figure(
-  image("../images/generar_confianza.png", width: 6in),
-  caption: [Elementos para generar confianza.]
-) <grafica-4>
+En la @grafica-4 (ver Anexos) se observa que la identidad validada de los usuarios y el sistema de reputación comunitaria deben ser visibles desde el primer contacto en la plataforma. La combinación de interés (63.6%) y alto interés (29.5%) con la demanda explícita de perfiles verificados confirma que la propuesta de valor responde directamente a los dolores del consumidor.
 
 === Preocupación en los encuentros de intercambio
 
-De la @grafica-5 se interpreta que el temor a ser engañado con el estado real del producto es el principal obstáculo del mercado informal de segunda mano. Los datos justifican la integración obligatoria de herramientas de verificación de estado y puntos de encuentro seguros para reducir la fricción en la adopción.
-
-#figure(
-  image("../images/preocupaciones.png", width: 6in),
-  caption: [Principales preocupaciones en un encuentro físico.]
-) <grafica-5>
+De la @grafica-5 (ver Anexos) se interpreta que el temor a ser engañado con el estado real del producto es el principal obstáculo del mercado informal de segunda mano. Los datos justifican la integración obligatoria de herramientas de verificación de estado y puntos de encuentro seguros para reducir la fricción en la adopción.
 
 === Medios de monetización
 
@@ -638,11 +613,12 @@ En la @proceso se muestra un diagrama de flujo del proceso de Scrum.
   #set page(flipped: true)
   #align(center + horizon)[
     #figure(
-      image("../images/proceso.png", width: 110%),
+      image("../images/proceso.jpeg", width: 80%),
       caption: [Marco de trabajo ágil Scrum.]
     ) <proceso>
   ]
 ]
+
 === Flujo Principal de Operación del Negocio
 
 Más allá de la programación del sistema, el proceso productivo de SWAP se materializa en el flujo mediante el cual la aplicación genera valor para los usuarios y captura ingresos para la empresa. Como se muestra en la @flujo-procesos, el ciclo operativo del negocio se ejecuta en cuatro momentos clave:
@@ -654,7 +630,7 @@ Más allá de la programación del sistema, el proceso productivo de SWAP se mat
 - *Cierre de ciclo y retención (Confirmación y Reputación):* Tras verificar la recepción del artículo, los usuarios califican la transacción. Esto alimenta el sistema de reputación y confianza comunitaria, incentivando la recurrencia de uso dentro de la plataforma.
 
 #figure(
-  image("../images/diagrama_flujo_procesos.png", width: 2in),
+  image("../images/diagrama_flujo_procesos.jpeg", width: 2in),
   caption: [Flujo de intercambio.]
 ) <flujo-procesos>
 
@@ -666,11 +642,10 @@ La selección de equipo de cómputo e infraestructura de trabajo se calibró par
 
 Para el desarrollo del proyecto SWAP, cada uno de los 4 integrantes del equipo contará con una estación de trabajo móvil/escritorio de alta gama. Las especificaciones mínimas requeridas se detallan a continuación:
 
-- *Estaciones de Trabajo de Desarrollo (4 unidades):*
-  - Procesador: Apple M2/M3 Pro o Intel Core i5/i7 de 13ª generación (mínimo 8 núcleos).
+- *Estaciones de Trabajo de Desarrollo (4 unidades: 3 laptops Asus TUF A16 y 1 MacBook):*
+  - Procesador: AMD Ryzen 7 en las laptops Asus TUF A16 y chip Apple Silicon en la MacBook (mínimo 8 núcleos).
   - Memoria RAM: 16 GB DDR5 o Memoria Unificada (indispensable para la ejecución simultánea de emuladores de Android Studio, Xcode y Docker).
   - Almacenamiento: SSD NVMe M.2 de 1TB (velocidad de lectura/escritura superior a 3500 MB/s).
-  - Pantalla secundaria: Monitor de 27 pulgadas 4K IPS con soporte ergonómico para trabajo multipantalla.
   - Periféricos: Teclado, ratón de precisión y diadema para reuniones virtuales.
 - *Dispositivos de Prueba Físicos (2 unidades):*
   - Un smartphone Android gama media-alta (ej. Samsung Galaxy S series o Google Pixel) para validación de cámara/código QR y geolocalización.
@@ -728,7 +703,7 @@ La oficina de desarrollo de SWAP está diseñada bajo un concepto de espacio col
 
     [*Área de Daily Standup y Planificación*],
     [12 m#super[2]],
-    [Pizarrón de cristal templado para diagramación y tablero Kanban, complementado con pantalla Smart TV de 45" para revisiones de código.],
+    [Pizarrón de cristal templado para diagramación y tablero Kanban.],
 
     [*SITE y Comunicaciones*],
     [3 m#super[2]],
@@ -744,18 +719,18 @@ La oficina de desarrollo de SWAP está diseñada bajo un concepto de espacio col
 En la @croquis y @vista-3D se muestra el croquis y una vista simulada de la oficina respectivamente.
 
 #figure(
-  image("../images/croquis.png", width: 5in),
+  image("../images/croquis.jpeg", width: 5in),
   caption: [Croquis de la oficina.]
 ) <croquis>
 
 #figure(
-  image("../images/oficina.png", width: 5in),
+  image("../images/oficina.jpeg", width: 5in),
   caption: [Visualización de la oficina.]
 ) <vista-3D>
 
 == Mano de obra requerida
 
-El recurso humano de SWAP está conformado integralmente por el equipo de 4 ingenieros de software. Al tratarse de una célula de desarrollo ágil reducida, se adopta un esquema de roles polivalentes, donde cada integrante asume responsabilidades clave acordes a sus fortalezas técnicas, garantizando la cobertura total del ciclo de vida del software.
+El recurso humano operativo de SWAP está conformado integralmente por el equipo de 4 ingenieros de software, que perciben un sueldo escalonado (ver la sección de remuneración). Al tratarse de una célula de desarrollo ágil reducida, se adopta un esquema de roles polivalentes, donde cada integrante asume responsabilidades clave acordes a sus fortalezas técnicas, garantizando la cobertura total del ciclo de vida del software.
 
 === Matriz de Roles y Asignación de Funciones
 
@@ -789,6 +764,35 @@ La distribución de responsabilidades entre los 4 integrantes del equipo se estr
   ),
   caption: [Matriz de roles y asignación de funciones del equipo SWAP],
 ) <roles>
+
+=== Remuneración de los desarrolladores
+
+Los cuatro ingenieros forman parte de la nómina de SWAP desde el mes 1. Para evitar que los sueldos generen utilidades netas negativas, la remuneración se plantea como una nómina escalonada: los sueldos brutos mensuales inician en niveles moderados y suben por etapas (a mitad del año 1 y luego cada año), siempre dentro de lo que permiten los ingresos proyectados. A cada sueldo se le agrega un 30 % por cargas patronales y prestaciones (cuotas de seguridad social, INFONAVIT y SAR, impuesto sobre nómina, aguinaldo, vacaciones y prima vacacional). Los cinco socios de las áreas de Administración y Finanzas y de Marketing no perciben sueldo. La @tab-nomina-resumen presenta el costo total; el detalle por desarrollador está en el Anexo de administración de sueldos y salarios (@tab-tabulador).
+
+#[
+  #set text(size: 10pt)
+  #figure(
+    table(
+      columns: (0.8fr, 1.4fr, 1fr, 1fr, 1fr, 1fr),
+      inset: 6pt,
+      align: (x, y) => if y == 0 { center + horizon } else if x == 0 { center + horizon } else { right + horizon },
+      table.header(
+        [*Año*],
+        [*Sueldo bruto mensual del equipo*],
+        [*Sueldos brutos anuales*],
+        [*Cargas y prestaciones (30 %)*],
+        [*Costo anual de nómina*],
+        [*% de los ingresos*],
+      ),
+      [Año 1], [\$16,500 / \$18,500], [\$210,000], [\$63,000], [\$273,000], [39.4 %],
+      [Año 2], [\$20,500], [\$246,000], [\$73,800], [\$319,800], [42.0 %],
+      [Año 3], [\$22,500], [\$270,000], [\$81,000], [\$351,000], [41.9 %],
+      [Año 4], [\$24,500], [\$294,000], [\$88,200], [\$382,200], [41.4 %],
+      [Año 5], [\$26,500], [\$318,000], [\$95,400], [\$413,400], [40.7 %],
+    ),
+    caption: [Resumen de la nómina de los desarrolladores y su peso en los ingresos],
+  ) <tab-nomina-resumen>
+]
 
 == Procedimiento de mejora continua
 
@@ -830,15 +834,15 @@ Los gastos en activo fijo se muestran en la @activos.
       [*Precio Unitario (MXN)*],
       [*Costo Total (MXN)*],
     ),
-    [4],
+    [3],
     [Estación de trabajo de desarrollo (Laptop Asus Tuf A16 Ryzen 7 16 GB RAM)],
-    [\$25,000.00],
-    [\$100,000.00],
+    [\$20,000.00],
+    [\$60,000.00],
 
-    [4],
-    [Monitor profesional 27" 4K IPS],
-    [\$3,500.00],
-    [\$14,000.00],
+    [1],
+    [Estación de trabajo de desarrollo (MacBook con chip Apple Silicon, 16 GB de memoria unificada)],
+    [\$18,000.00],
+    [\$18,000.00],
 
     [2],
     [Dispositivos de prueba móvil (1 Android gama alta / 1 iPhone)],
@@ -858,7 +862,7 @@ Los gastos en activo fijo se muestran en la @activos.
     [*Total*],
     [*Activo Fijo Tecnológico*],
     [],
-    [*\$162,000.00*],
+    [*\$126,000.00*],
   ),
   caption: [Inversión en activo fijo tecnológico del proyecto SWAP],
 ) <activos>
@@ -894,11 +898,6 @@ En la @mobiliario se muestran los gastos en mobiliario y equipo de la oficina.
     [\$2,000.00],
 
     [1],
-    [Pantalla Smart TV 45" para revisiones de código],
-    [\$7,000.00],
-    [\$7,000.00],
-
-    [1],
     [Minisplit 24,000 BTU Inverter (Aire Acondicionado)],
     [\$14,000.00],
     [\$14,000.00],
@@ -911,7 +910,7 @@ En la @mobiliario se muestran los gastos en mobiliario y equipo de la oficina.
     [*Total*],
     [*Mobiliario y Equipamiento de Oficina*],
     [],
-    [*\$47,000.00*],
+    [*\$40,000.00*],
   ),
   caption: [Inversión en mobiliario y equipamiento de oficina del proyecto SWAP],
 ) <mobiliario>
@@ -961,14 +960,19 @@ En la @insumos-tecnologicos se proyectan los gastos en insumos tecnológicos. Pa
   caption: [Insumos tecnológicos y gastos operativos mensuales del proyecto SWAP],
 ) <insumos-tecnologicos>
 
+=== Nómina del equipo de desarrollo
+
+La mano de obra es el mayor costo de operación de SWAP. Con los sueldos escalonados de la @tab-tabulador, la nómina del año 1 es de \$273,000 incluyendo cargas patronales y prestaciones (\$210,000 de sueldos brutos). Este monto no se incluye en la base del fondo de imprevistos, porque es un compromiso contractual conocido.
+
 === Resumen de Costos de Producción
 
 El costo total de la etapa de desarrollo y puesta en marcha del proyecto SWAP combina la inversión inicial en infraestructura con el costo operativo de mano de obra durante el primer año:
 
-- *Inversión Inicial en Activos (Fijo + Mobiliario):* \$209,000.00 MXN.
+- *Inversión Inicial en Activos (Fijo + Mobiliario):* \$166,000.00 MXN.
 - *Costo Operativo Anual de Insumos y Servicios:* \$240,000.00MXN (20,000.00 MXN mensuales).
-- *Costos de Imprevistos:* \$22,450.00 MXN.
-- *Costo Total de Producción (Año 1):* \$471,450.00 MXN, monto que se amortiza y cubre holgadamente con la proyección de flujo de caja bruto anual estimado de \$692,952.00 MXN generado por las comisiones de trueque, membresías Premium y márgenes logísticos de la plataforma.
+- *Costos de Imprevistos:* \$20,300.00 MXN.
+- *Nómina de los 4 desarrolladores (Año 1, con cargas patronales y prestaciones):* \$273,000.00 MXN.
+- *Costo Total de Producción (Año 1):* \$699,300.00 MXN. De ese monto, \$166,000.00 MXN corresponden a activos que se financian con el capital social; los \$533,300.00 MXN restantes (insumos, imprevistos y nómina) se cubren con la proyección de ingresos brutos anuales de \$692,952.00 MXN generados por las comisiones de trueque, membresías Premium y márgenes logísticos de la plataforma, lo que deja una utilidad antes de impuestos de \$117,852 en el año 1 (después de depreciación).
 
 La @resumen-costos muestra el resumen de costos de producción.
 
@@ -982,19 +986,22 @@ La @resumen-costos muestra el resumen de costos de producción.
       [*Costo en pesos*],
     ),
     [Inversión en activos fijos],
-    [\$162,000.00 MXN],
+    [\$126,000.00 MXN],
 
     [Inversión en mobiliario],
-    [\$47,000.00 MXN],
+    [\$40,000.00 MXN],
 
     [Insumos tecnológicos (costo anual)],
     [\$240,000.00 MXN],
 
     [Imprevistos (5%)],
-    [\$22,450.00 MXN],
+    [\$20,300.00 MXN],
+
+    [Nómina de desarrolladores (con cargas)],
+    [\$273,000.00 MXN],
 
     [*Total*],
-    [*\$471,450.00 MXN*],
+    [*\$699,300.00 MXN*],
   ),
   caption: [Resumen de costos de producción (Año 1) de SWAP],
 ) <resumen-costos>
@@ -1023,7 +1030,7 @@ La @resumen-costos muestra el resumen de costos de producción.
 
 #set heading(numbering: none)
 
-Con una inversión inicial de \$270,000 MXN, SWAP genera una utilidad neta de \$264,041 en el primer año, un VPN de \$981,228 y una TIR de 121.5 % a cinco años, y alcanza su punto de equilibrio con 686 usuarios activos mensuales, el 39 % de la meta de 1,762. Este capítulo integra los costos de inversión y operación del Estudio Técnico y los ingresos pronosticados en el Estudio de Mercado, siguiendo la estructura indicada por #cite(<alcaraz2011emprendedor>, form: "prose"). Todas las cifras están en pesos mexicanos (MXN).
+Con una inversión inicial de \$225,000 MXN y una nómina escalonada para los cuatro desarrolladores (\$273,000 en el año 1, con cargas patronales), SWAP obtiene utilidad neta positiva en todos los meses y años proyectados: \$82,496 en el primer año, un VPN de \$234,993 y una TIR de 48.8 % a cinco años. Alcanza su punto de equilibrio con 1,426 usuarios activos mensuales, el 80.9 % de la meta de 1,762, por lo que el resultado depende de cumplir esa meta. Este capítulo integra los costos de inversión y operación del Estudio Técnico y los ingresos pronosticados en el Estudio de Mercado, siguiendo la estructura indicada por #cite(<alcaraz2011emprendedor>, form: "prose"). Todas las cifras están en pesos mexicanos (MXN).
 
 == Fundamentos de la proyección financiera
 
@@ -1033,9 +1040,9 @@ Antes de presentar los estados financieros, se definen los objetivos del área f
 
 El área de Administración y Finanzas de SWAP persigue un objetivo general: llevar ordenadamente las cuentas de la empresa, conocer su situación financiera y buscar opciones que reduzcan costos y gastos para aumentar el rendimiento. Este objetivo se concreta en metas por plazo:
 
-- *Corto plazo (6 meses):* operar con flujo de efectivo positivo desde el primer mes y acumular utilidades retenidas por \$132,021 al cierre del mes 6.
-- *Mediano plazo (12 meses):* alcanzar una utilidad neta anual de \$264,041, un saldo en caja y bancos de \$362,262 y la recuperación de la inversión inicial.
-- *Largo plazo (5 años):* elaborar y actualizar las proyecciones financieras, reponer el equipo de cómputo y llegar a ingresos anuales superiores a \$1,000,000.
+- *Corto plazo (6 meses):* operar con utilidad neta positiva desde el primer mes (\$7,785 mensuales en la primera etapa de nómina), con flujo de efectivo de operación positivo desde el mes 2, y acumular utilidades retenidas por \$46,708 al cierre del mes 6.
+- *Mediano plazo (12 meses):* alcanzar una utilidad neta anual de \$82,496 después de pagar la nómina de los cuatro desarrolladores, un saldo en caja y bancos de \$160,344 y sostener la primera alza escalonada de sueldos (mes 7) sin pérdidas.
+- *Largo plazo (5 años):* recuperar la inversión inicial (mes 23 de operación), llegar a ingresos anuales superiores a \$1,000,000, elevar la nómina hasta \$413,400 anuales sin perder rentabilidad, reponer el equipo de cómputo y actualizar las proyecciones financieras.
 
 Estas metas se evalúan con los indicadores de las secciones de TIR y VPN, razones financieras y punto de equilibrio, y se revisan al cierre de cada trimestre.
 
@@ -1043,11 +1050,11 @@ Estas metas se evalúan con los indicadores de las secciones de TIR y VPN, razon
 
 La contabilidad estará a cargo de los tres socios del Área de Administración y Finanzas: Estefany Gómez García (coordinación financiera y tesorería), José Oswaldo Martínez Velásquez (control de costos y presupuesto) y Verónica Fernández Martín (contabilidad fiscal y cumplimiento). Al ser socios, no generan un costo adicional de nómina ni de capacitación.
 
-El registro se llevará en hoja de cálculo, con un catálogo de cuentas adaptado al de una empresa de servicios: Caja (100), Bancos (101), Cuentas por cobrar (102), Equipo de oficina (113), Depreciación acumulada (113-1), Impuestos por pagar (202), Capital social (300), Utilidades retenidas (301), Ingresos por servicios (400 y 401) y las cuentas de gastos de la serie 500. Los comprobantes fiscales de cada operación se conservarán como respaldo de los asientos de diario.
+El registro se llevará en hoja de cálculo, con un catálogo de cuentas adaptado al de una empresa de servicios: Caja (100), Bancos (101), Cuentas por cobrar (102), Equipo de oficina (113), Depreciación acumulada (113-1), Impuestos por pagar (202), Capital social (300), Utilidades retenidas (301), Ingresos por servicios (400 y 401) y las cuentas de gastos de la serie 500, entre ellas Gastos por sueldos (500), donde se registran los sueldos de los desarrolladores y sus cargas patronales. Los comprobantes fiscales y los recibos de nómina de cada operación se conservarán como respaldo de los asientos de diario.
 
 === Supuestos de la proyección
 
-Los supuestos de la @tab-supuestos se tomaron del Estudio de Mercado (@tab-proyeccion) y del Estudio Técnico (@activos, @mobiliario, @insumos-tecnologicos y @resumen-costos); los que no provienen de esos estudios se señalan como supuestos propios del análisis financiero.
+Los supuestos de la @tab-supuestos se tomaron del Estudio de Mercado (@tab-proyeccion), del Estudio Técnico (@activos, @mobiliario, @insumos-tecnologicos, @tab-nomina-resumen y @resumen-costos) y del Anexo de administración de sueldos y salarios (@tab-tabulador); los que no provienen de esos documentos se señalan como supuestos propios del análisis financiero.
 
 #figure(
   table(
@@ -1064,11 +1071,12 @@ Los supuestos de la @tab-supuestos se tomaron del Estudio de Mercado (@tab-proye
     [Crecimiento de ingresos], [10 % anual del año 2 al 5],
     [Cobranza], [Comisiones y guías de envío de contado; suscripciones Premium cobradas a 30 días por las tiendas de aplicaciones],
     [Costos operativos], [\$20,000 mensuales (@insumos-tecnologicos), con incremento de 5 % anual desde el año 2],
-    [Imprevistos], [5 %: \$22,450 en el año 1 (@resumen-costos) y 5 % de los costos operativos desde el año 2],
-    [Depreciación], [Línea recta: 30 % anual en equipo de cómputo y 10 % anual en mobiliario; reposición del equipo de cómputo por \$162,000 al final del año 4],
-    [Sueldos], [Los 9 socios fundadores no perciben sueldo en el horizonte; su retribución proviene de las utilidades],
-    [Capital social], [\$270,000 en efectivo: nueve socios con \$30,000 cada uno; sin créditos],
-    [Impuestos], [ISR de 30 % sobre la utilidad antes de impuestos, pagado en el mes siguiente; sin PTU, pues los socios no son trabajadores],
+    [Nómina de desarrolladores], [Los 4 desarrolladores están en nómina desde el mes 1 con sueldos brutos escalonados por etapa (@tab-tabulador) más 30 % de cargas patronales y prestaciones; costo de \$273,000 en el año 1 a \$413,400 en el año 5 (@tab-nomina-resumen)],
+    [Imprevistos], [5 %: \$20,300 en el año 1 (@resumen-costos) y 5 % de los costos operativos desde el año 2; la nómina no forma parte de la base por ser un compromiso contractual conocido],
+    [Depreciación], [Línea recta: 30 % anual en equipo de cómputo y 10 % anual en mobiliario; reposición del equipo de cómputo por \$126,000 al final del año 4],
+    [Sueldos de los socios], [Los 5 socios de Administración y Finanzas y de Marketing no perciben sueldo en el horizonte; su retribución proviene de las utilidades. Los 4 socios desarrolladores perciben el sueldo del tabulador escalonado],
+    [Capital social], [\$225,000 en efectivo: nueve socios con \$25,000 cada uno; sin créditos],
+    [Impuestos], [ISR de 30 % sobre la utilidad antes de impuestos, pagado en el mes siguiente. La PTU no se modela: las empresas de nueva creación están exentas el primer año y, desde el año 2, su monto deberá calcularse con el contador],
     [Dividendos], [No se reparten durante el horizonte; las utilidades se retienen],
     [Inventarios], [No existen inventarios físicos (sección 3.4.2)],
     [Tasa de descuento (TREMA)], [15 % anual],
@@ -1076,15 +1084,15 @@ Los supuestos de la @tab-supuestos se tomaron del Estudio de Mercado (@tab-proye
   caption: [Supuestos utilizados en las proyecciones financieras de SWAP],
 ) <tab-supuestos>
 
-El supuesto de mayor peso es que los socios no cobran sueldo y que los ingresos del año 1 se alcanzan desde el primer mes; ambos hacen que los resultados presentados en las secciones siguientes sean favorables, por lo que en el análisis de rentabilidad se incluye una evaluación de sensibilidad con ingresos menores.
+Los supuestos de mayor peso son que los ingresos del año 1 se alcanzan desde el primer mes y que los sueldos escalonados se pagan con esos ingresos. Como la nómina es un costo fijo, un retraso en la captación de usuarios reduce la utilidad con rapidez; por ello, el análisis de rentabilidad incluye una evaluación de sensibilidad con ingresos menores y los incrementos de sueldo se condicionan al cumplimiento de metas de ingresos (ver el Anexo de sueldos y salarios).
 
 #set heading(numbering: "1.1.")
 
 == Estado de resultados del proyecto
 
-SWAP genera una utilidad neta de \$22,003 al mes y de \$264,041 en el primer año, equivalente a un margen neto de 38.1 %. Como empresa de servicios, SWAP no registra costo de ventas ni inventarios, por lo que su estado de resultados sigue el formato de una empresa prestadora de servicios: ingresos, gastos, utilidad antes de impuestos e ISR.
+SWAP genera una utilidad neta de \$7,785 al mes en los primeros seis meses, de \$5,965 al mes del mes 7 al 12 y de \$82,496 en el primer año, equivalente a un margen neto de 11.9 %. Como empresa de servicios, SWAP no registra costo de ventas ni inventarios, por lo que su estado de resultados sigue el formato de una empresa prestadora de servicios: ingresos, gastos, utilidad antes de impuestos e ISR.
 
-Para elaborarlo, primero se clasifican los costos y gastos del Estudio Técnico en variables y fijos. La @tab-clasificacion-costos muestra esa clasificación; los costos variables son los que crecen con el número de usuarios (nube y consumo de APIs), mientras que el resto no cambia con el volumen de intercambios.
+Para elaborarlo, primero se clasifican los costos y gastos del Estudio Técnico en variables y fijos. La @tab-clasificacion-costos muestra esa clasificación; los costos variables son los que crecen con el número de usuarios (nube y consumo de APIs), mientras que el resto no cambia con el volumen de intercambios. La nómina de los desarrolladores es un costo fijo: en la tabla se muestra su promedio del año 1, que resulta de \$21,450 mensuales en los meses 1 a 6 y \$24,050 en los meses 7 a 12.
 
 #figure(
   table(
@@ -1103,48 +1111,51 @@ Para elaborarlo, primero se clasifican los costos y gastos del Estudio Técnico 
     [Costo fijo], [Servicios públicos e internet], [\$3,200.00],
     [Costo fijo], [Licencias de desarrollo y herramientas], [\$2,200.00],
     [Costo fijo], [Cuentas de desarrollador], [\$300.00],
-    [*Subtotal costos fijos*], [], [*\$13,700.00*],
-    [Gasto fijo], [Imprevistos (5 %)], [\$1,870.83],
-    [Gasto fijo], [Depreciación de activos], [\$4,441.67],
-    [*Subtotal gastos fijos*], [], [*\$6,312.50*],
-    [*Total de costos y gastos*], [Sin gastos variables], [*\$26,312.50*],
+    [Costo fijo], [Nómina de los 4 desarrolladores, con cargas (promedio del año 1)], [\$22,750.00],
+    [*Subtotal costos fijos*], [], [*\$36,450.00*],
+    [Gasto fijo], [Imprevistos (5 %)], [\$1,691.67],
+    [Gasto fijo], [Depreciación de activos], [\$3,483.33],
+    [*Subtotal gastos fijos*], [], [*\$5,175.00*],
+    [*Total de costos y gastos*], [Costos variables, fijos y gastos fijos], [*\$47,925.00*],
   ),
   caption: [Clasificación de costos y gastos mensuales de SWAP (año 1)],
 ) <tab-clasificacion-costos>
 
-Los costos operativos de \$20,000 mensuales provienen de la @insumos-tecnologicos; los imprevistos (\$22,450 anuales) de la @resumen-costos, y la depreciación se calcula sobre los activos de las @activos y @mobiliario: \$4,050 mensuales del equipo de cómputo y \$391.67 del mobiliario.
+Los costos operativos de \$20,000 mensuales provienen de la @insumos-tecnologicos; los imprevistos (\$20,300 anuales) de la @resumen-costos; la nómina, de la @tab-nomina-resumen, y la depreciación se calcula sobre los activos de las @activos y @mobiliario: \$3,150 mensuales del equipo de cómputo y \$333.33 del mobiliario.
 
-Con esa clasificación se obtiene el estado de resultados de la @tab-estado-resultados-1. Los ingresos se integran por comisiones (\$19,822 mensuales), suscripciones Premium (\$25,509) y margen logístico (\$12,414), conforme a la @tab-proyeccion.
+Con esa clasificación se obtiene el estado de resultados de la @tab-estado-resultados-1. Los ingresos se integran por comisiones (\$19,822 mensuales), suscripciones Premium (\$25,509) y margen logístico (\$12,414), conforme a la @tab-proyeccion. El año se divide en dos etapas porque los sueldos de los desarrolladores suben en el mes 7.
 
 #figure(
   table(
-    columns: (2.3fr, 1.1fr, 1.1fr),
-    inset: 8pt,
+    columns: (2.3fr, 1fr, 1fr, 1.1fr),
+    inset: 7pt,
     align: (x, y) => if y == 0 { center + horizon } else if x >= 1 { right + horizon } else { left + horizon },
     table.header(
       [*Concepto*],
-      [*Mensual*],
+      [*Mensual (meses 1–6)*],
+      [*Mensual (meses 7–12)*],
       [*Año 1*],
     ),
-    [*Ingresos por servicios*], [*\$57,746.00*], [*\$692,952.00*],
-    [(–) Renta de oficina], [\$8,000.00], [\$96,000.00],
-    [(–) Servicios públicos e internet], [\$3,200.00], [\$38,400.00],
-    [(–) Nube, APIs, licencias y cuentas de desarrollador], [\$8,800.00], [\$105,600.00],
-    [(–) Imprevistos], [\$1,870.83], [\$22,450.00],
-    [(–) Depreciación], [\$4,441.67], [\$53,300.00],
-    [\= Total de gastos], [\$26,312.50], [\$315,750.00],
-    [\= Utilidad antes de financieros e impuestos], [\$31,433.50], [\$377,202.00],
-    [(+/–) Costo integral de financiamiento], [\$0.00], [\$0.00],
-    [Utilidad antes de ISR], [\$31,433.50], [\$377,202.00],
-    [(–) ISR (30 %)], [\$9,430.05], [\$113,160.60],
-    [*\= Utilidad neta*], [*\$22,003.45*], [*\$264,041.40*],
+    [*Ingresos por servicios*], [*\$57,746.00*], [*\$57,746.00*], [*\$692,952.00*],
+    [(–) Renta de oficina], [\$8,000.00], [\$8,000.00], [\$96,000.00],
+    [(–) Servicios públicos e internet], [\$3,200.00], [\$3,200.00], [\$38,400.00],
+    [(–) Nube, APIs, licencias y cuentas de desarrollador], [\$8,800.00], [\$8,800.00], [\$105,600.00],
+    [(–) Nómina de desarrolladores (con cargas)], [\$21,450.00], [\$24,050.00], [\$273,000.00],
+    [(–) Imprevistos], [\$1,691.67], [\$1,691.67], [\$20,300.00],
+    [(–) Depreciación], [\$3,483.33], [\$3,483.33], [\$41,800.00],
+    [\= Total de gastos], [\$46,625.00], [\$49,225.00], [\$575,100.00],
+    [\= Utilidad antes de financieros e impuestos], [\$11,121.00], [\$8,521.00], [\$117,852.00],
+    [(+/–) Costo integral de financiamiento], [\$0.00], [\$0.00], [\$0.00],
+    [Utilidad antes de ISR], [\$11,121.00], [\$8,521.00], [\$117,852.00],
+    [(–) ISR (30 %)], [\$3,336.30], [\$2,556.30], [\$35,355.60],
+    [*\= Utilidad neta*], [*\$7,784.70*], [*\$5,964.70*], [*\$82,496.40*],
   ),
-  caption: [Estado de resultados de SWAP, mensual y del año 1],
+  caption: [Estado de resultados de SWAP, año 1 por etapas de nómina],
 ) <tab-estado-resultados-1>
 
 _Nota:_ la suma de los tres renglones de ingreso es \$57,745; la @tab-proyeccion reporta \$57,746 por redondeo, y se conserva ese total.
 
-El costo integral de financiamiento es cero porque SWAP no contrata créditos ni mantiene inversiones que generen intereses. Al no haber costo de ventas, la utilidad de operación equivale al 54.4 % de los ingresos, y el ISR absorbe 30 % de esa utilidad.
+El costo integral de financiamiento es cero porque SWAP no contrata créditos ni mantiene inversiones que generen intereses. La utilidad de operación equivale a 17.0 % de los ingresos y el ISR absorbe 30 % de esa utilidad. La utilidad neta mensual es positiva en las dos etapas: el aumento de nómina del mes 7 (\$2,600 mensuales con cargas) reduce la utilidad, pero no la lleva a pérdida.
 
 Para los años 2 a 5 se aplican los supuestos de crecimiento de la @tab-supuestos, con resultados que se resumen en la @tab-estado-resultados-5.
 
@@ -1163,21 +1174,22 @@ Para los años 2 a 5 se aplican los supuestos de crecimiento de la @tab-supuesto
     ),
     [Ingresos], [\$692,952], [\$762,247], [\$838,472], [\$922,319], [\$1,014,551],
     [(–) Costos operativos], [\$240,000], [\$252,000], [\$264,600], [\$277,830], [\$291,722],
-    [(–) Imprevistos], [\$22,450], [\$12,600], [\$13,230], [\$13,892], [\$14,586],
-    [(–) Depreciación], [\$53,300], [\$53,300], [\$53,300], [\$20,900], [\$53,300],
-    [\= Utilidad antes de ISR], [\$377,202], [\$444,347], [\$507,342], [\$609,698], [\$654,943],
-    [(–) ISR (30 %)], [\$113,161], [\$133,304], [\$152,203], [\$182,909], [\$196,483],
-    [*\= Utilidad neta*], [*\$264,041*], [*\$311,043*], [*\$355,139*], [*\$426,788*], [*\$458,460*],
-    [Margen neto], [38.1 %], [40.8 %], [42.4 %], [46.3 %], [45.2 %],
+    [(–) Nómina de desarrolladores (con cargas)], [\$273,000], [\$319,800], [\$351,000], [\$382,200], [\$413,400],
+    [(–) Imprevistos], [\$20,300], [\$12,600], [\$13,230], [\$13,892], [\$14,586],
+    [(–) Depreciación], [\$41,800], [\$41,800], [\$41,800], [\$16,600], [\$41,800],
+    [\= Utilidad antes de ISR], [\$117,852], [\$136,047], [\$167,842], [\$231,798], [\$253,043],
+    [(–) ISR (30 %)], [\$35,356], [\$40,814], [\$50,353], [\$69,539], [\$75,913],
+    [*\= Utilidad neta*], [*\$82,496*], [*\$95,233*], [*\$117,489*], [*\$162,258*], [*\$177,130*],
+    [Margen neto], [11.9 %], [12.5 %], [14.0 %], [17.6 %], [17.5 %],
   ),
   caption: [Estado de resultados proyectado de SWAP, años 1 a 5],
 ) <tab-estado-resultados-5>
 
-La utilidad neta crece de \$264,041 a \$458,460 porque los ingresos aumentan 10 % anual y los costos solo 5 %. El margen del año 4 es el más alto porque el equipo de cómputo termina de depreciarse ese año, y baja en el año 5 al reiniciar la depreciación con el equipo repuesto.
+La utilidad neta crece de \$82,496 a \$177,130 porque los ingresos aumentan 10 % anual, los costos operativos 5 % y la nómina escalonada crece menos que los ingresos a partir del año 3 (9.8 %, 8.9 % y 8.2 %), de modo que su peso baja de 42.0 % a 40.7 % de las ventas. El margen del año 4 es el más alto porque el equipo de cómputo termina de depreciarse ese año, y baja en el año 5 al reiniciar la depreciación con el equipo repuesto.
 
 == Capital de trabajo
 
-SWAP requiere \$270,000 para iniciar operaciones: \$209,000 en activos y \$61,000 de capital de trabajo, que se financian por completo con aportaciones de los socios, sin créditos. El capital de trabajo es el dinero con que cuenta la empresa para operar después de cubrir sus deudas a corto plazo, y se calcula como activo circulante menos pasivo circulante.
+SWAP requiere \$225,000 para iniciar operaciones: \$166,000 en activos y \$59,000 de capital de trabajo, que se financian por completo con aportaciones de los socios, sin créditos. El capital de trabajo es el dinero con que cuenta la empresa para operar después de cubrir sus deudas a corto plazo, y se calcula como activo circulante menos pasivo circulante.
 
 === Inversión inicial y capital social
 
@@ -1193,17 +1205,17 @@ La inversión inicial se compone de los activos del Estudio Técnico y de un fon
       [*Monto*],
       [*% del total*],
     ),
-    [Activo fijo tecnológico (@activos)], [\$162,000], [60.0 %],
-    [Mobiliario y equipo de oficina (@mobiliario)], [\$47,000], [17.4 %],
-    [Capital de trabajo inicial (efectivo)], [\$61,000], [22.6 %],
-    [*Inversión inicial total*], [*\$270,000*], [*100.0 %*],
+    [Activo fijo tecnológico (@activos)], [\$126,000], [56.0 %],
+    [Mobiliario y equipo de oficina (@mobiliario)], [\$40,000], [17.8 %],
+    [Capital de trabajo inicial (efectivo)], [\$59,000], [26.2 %],
+    [*Inversión inicial total*], [*\$225,000*], [*100.0 %*],
   ),
   caption: [Inversión inicial del proyecto SWAP],
 ) <tab-inversion-inicial>
 
-El capital de trabajo inicial cubre cerca de 2.8 meses de egresos operativos (\$21,870.83 mensuales entre costos e imprevistos). Esa reserva es una medida de prudencia, porque el saldo de caja es positivo desde el primer mes.
+El capital de trabajo inicial cubre cerca de 1.4 meses de egresos de operación y nómina (\$43,142 en el mes 1). Esa reserva se usa en parte: en el mes 1 SWAP solo cobra \$32,237, porque las suscripciones se cobran a 30 días, y la caja baja a 48,095; desde el mes 2 el saldo vuelve a crecer.
 
-El capital social de \$270,000 lo aportan en efectivo los nueve socios fundadores, a razón de \$30,000 cada uno, como se muestra en la @tab-capital-social.
+El capital social de \$225,000 lo aportan en efectivo los nueve socios fundadores, a razón de \$25,000 cada uno, como se muestra en la @tab-capital-social.
 
 #figure(
   table(
@@ -1217,10 +1229,10 @@ El capital social de \$270,000 lo aportan en efectivo los nueve socios fundadore
       [*Total aportado*],
       [*% de participación*],
     ),
-    [Tecnología y Producto], [4], [\$30,000], [\$120,000], [44.4 %],
-    [Administración y Finanzas], [3], [\$30,000], [\$90,000], [33.3 %],
-    [Marketing y Comercialización], [2], [\$30,000], [\$60,000], [22.2 %],
-    [*Total*], [*9*], [], [*\$270,000*], [*100.0 %*],
+    [Tecnología y Producto], [4], [\$25,000], [\$100,000], [44.4 %],
+    [Administración y Finanzas], [3], [\$25,000], [\$75,000], [33.3 %],
+    [Marketing y Comercialización], [2], [\$25,000], [\$50,000], [22.2 %],
+    [*Total*], [*9*], [], [*\$225,000*], [*100.0 %*],
   ),
   caption: [Capital social de SWAP],
 ) <tab-capital-social>
@@ -1229,7 +1241,7 @@ Con aportaciones iguales, cada socio posee 11.1 % de la empresa, de modo que nin
 
 === Sistema de financiamiento
 
-Se analizaron las fuentes que sugiere el capítulo de finanzas: socios particulares, préstamos bancarios, aportaciones personales, sociedades de inversión y créditos de proveedores. SWAP opta por las aportaciones de los socios porque el proyecto genera flujo de efectivo positivo desde el primer mes y un préstamo solo sumaría intereses sin ser necesario. Además, evita comprometer pagos fijos antes de validar el número real de usuarios.
+Se analizaron las fuentes que sugiere el capítulo de finanzas: socios particulares, préstamos bancarios, aportaciones personales, sociedades de inversión y créditos de proveedores. SWAP opta por las aportaciones de los socios porque el proyecto genera flujo de efectivo de operación positivo desde el mes 2 y un préstamo solo sumaría intereses sin ser necesario. Además, evita comprometer pagos fijos antes de validar el número real de usuarios.
 
 === Cálculo del capital de trabajo
 
@@ -1246,20 +1258,20 @@ La @tab-capital-trabajo calcula el capital de trabajo en tres momentos del prime
       [*Mes 6*],
       [*Mes 12*],
     ),
-    [Caja y bancos], [\$71,366], [\$203,592], [\$362,262],
+    [Caja y bancos], [\$48,095], [\$104,436], [\$160,344],
     [Cuentas por cobrar], [\$25,509], [\$25,509], [\$25,509],
-    [*Activo circulante*], [*\$96,875*], [*\$229,101*], [*\$387,771*],
-    [(–) Impuestos por pagar (pasivo circulante)], [\$9,430], [\$9,430], [\$9,430],
-    [*Capital de trabajo*], [*\$87,445*], [*\$219,671*], [*\$378,341*],
+    [*Activo circulante*], [*\$73,604*], [*\$129,945*], [*\$185,853*],
+    [(–) Impuestos por pagar (pasivo circulante)], [\$3,336], [\$3,336], [\$2,556],
+    [*Capital de trabajo*], [*\$70,268*], [*\$126,609*], [*\$183,297*],
   ),
   caption: [Capital de trabajo de SWAP en el año 1],
 ) <tab-capital-trabajo>
 
-El capital de trabajo crece de \$87,445 a \$378,341 porque la empresa no tiene deudas con terceros y retiene sus utilidades. El único pasivo a corto plazo es el ISR del último mes, que se paga el mes siguiente, de modo que SWAP puede cubrir sus obligaciones sin depender de nuevos aportes.
+El capital de trabajo crece de \$70,268 a \$183,297 porque la empresa no tiene deudas con terceros y retiene sus utilidades. El único pasivo a corto plazo es el ISR del último mes, que se paga el mes siguiente, de modo que SWAP puede cubrir sus obligaciones, incluida la nómina, sin depender de nuevos aportes.
 
 == Balance pro forma
 
-Al cierre del año 1, SWAP tiene activos por \$543,471, un solo pasivo de \$9,430 y un capital contable de \$534,041, de modo que 98.3 % de sus activos es propiedad de los socios. El balance general muestra, a una fecha determinada, lo que la empresa tiene (activos), lo que debe (pasivos) y lo que pertenece a los socios (capital), bajo la ecuación activo = pasivo + capital.
+Al cierre del año 1, SWAP tiene activos por \$310,053, un solo pasivo de \$2,556 y un capital contable de \$307,496, de modo que 99.2 % de sus activos es propiedad de los socios. El balance general muestra, a una fecha determinada, lo que la empresa tiene (activos), lo que debe (pasivos) y lo que pertenece a los socios (capital), bajo la ecuación activo = pasivo + capital.
 
 La @tab-balance presenta el balance en los meses 1, 6 y 12 del primer año y al cierre de los años 2 a 5.
 
@@ -1281,35 +1293,35 @@ La @tab-balance presenta el balance en los meses 1, 6 y 12 del primer año y al 
         [*Año 5*],
       ),
       [*ACTIVO*], [], [], [], [], [], [], [],
-      [Caja y bancos], [\$71,366], [\$203,592], [\$362,262], [\$725,733], [\$1,132,941], [\$1,418,102], [\$1,927,598],
+      [Caja y bancos], [\$48,095], [\$104,436], [\$160,344], [\$295,671], [\$452,949], [\$504,320], [\$720,386],
       [Cuentas por cobrar], [\$25,509], [\$25,509], [\$25,509], [\$28,060], [\$30,866], [\$33,952], [\$37,348],
-      [*Total activo circulante*], [*\$96,875*], [*\$229,101*], [*\$387,771*], [*\$753,793*], [*\$1,163,807*], [*\$1,452,054*], [*\$1,964,946*],
-      [Equipo de cómputo (neto)], [\$157,950], [\$137,700], [\$113,400], [\$64,800], [\$16,200], [\$162,000], [\$113,400],
-      [Mobiliario y equipo de oficina (neto)], [\$46,608], [\$44,650], [\$42,300], [\$37,600], [\$32,900], [\$28,200], [\$23,500],
-      [*Total activo fijo*], [*\$204,558*], [*\$182,350*], [*\$155,700*], [*\$102,400*], [*\$49,100*], [*\$190,200*], [*\$136,900*],
-      [*TOTAL ACTIVOS*], [*\$301,434*], [*\$411,451*], [*\$543,471*], [*\$856,193*], [*\$1,212,907*], [*\$1,642,255*], [*\$2,101,846*],
+      [*Total activo circulante*], [*\$73,604*], [*\$129,945*], [*\$185,853*], [*\$323,731*], [*\$483,815*], [*\$538,272*], [*\$757,734*],
+      [Equipo de cómputo (neto)], [\$122,850], [\$107,100], [\$88,200], [\$50,400], [\$12,600], [\$126,000], [\$88,200],
+      [Mobiliario y equipo de oficina (neto)], [\$39,667], [\$38,000], [\$36,000], [\$32,000], [\$28,000], [\$24,000], [\$20,000],
+      [*Total activo fijo*], [*\$162,517*], [*\$145,100*], [*\$124,200*], [*\$82,400*], [*\$40,600*], [*\$150,000*], [*\$108,200*],
+      [*TOTAL ACTIVOS*], [*\$236,121*], [*\$275,045*], [*\$310,053*], [*\$406,131*], [*\$524,415*], [*\$688,272*], [*\$865,934*],
       [*PASIVO*], [], [], [], [], [], [], [],
-      [Impuestos por pagar], [\$9,430], [\$9,430], [\$9,430], [\$11,109], [\$12,684], [\$15,242], [\$16,374],
-      [*Total pasivos*], [*\$9,430*], [*\$9,430*], [*\$9,430*], [*\$11,109*], [*\$12,684*], [*\$15,242*], [*\$16,374*],
+      [Impuestos por pagar], [\$3,336], [\$3,336], [\$2,556], [\$3,401], [\$4,196], [\$5,795], [\$6,326],
+      [*Total pasivos*], [*\$3,336*], [*\$3,336*], [*\$2,556*], [*\$3,401*], [*\$4,196*], [*\$5,795*], [*\$6,326*],
       [*CAPITAL CONTABLE*], [], [], [], [], [], [], [],
-      [Capital social], [\$270,000], [\$270,000], [\$270,000], [\$270,000], [\$270,000], [\$270,000], [\$270,000],
-      [Utilidades retenidas], [\$22,003], [\$132,021], [\$264,041], [\$575,084], [\$930,224], [\$1,357,012], [\$1,815,473],
-      [*Total capital contable*], [*\$292,003*], [*\$402,021*], [*\$534,041*], [*\$845,084*], [*\$1,200,224*], [*\$1,627,012*], [*\$2,085,473*],
-      [*TOTAL PASIVO Y CAPITAL*], [*\$301,434*], [*\$411,451*], [*\$543,471*], [*\$856,193*], [*\$1,212,907*], [*\$1,642,255*], [*\$2,101,846*],
+      [Capital social], [\$225,000], [\$225,000], [\$225,000], [\$225,000], [\$225,000], [\$225,000], [\$225,000],
+      [Utilidades retenidas], [\$7,785], [\$46,708], [\$82,496], [\$177,729], [\$295,219], [\$457,477], [\$634,608],
+      [*Total capital contable*], [*\$232,785*], [*\$271,708*], [*\$307,496*], [*\$402,729*], [*\$520,219*], [*\$682,477*], [*\$859,608*],
+      [*TOTAL PASIVO Y CAPITAL*], [*\$236,121*], [*\$275,044*], [*\$310,052*], [*\$406,130*], [*\$524,415*], [*\$688,272*], [*\$865,934*],
     ),
     caption: [Balance general proyectado de SWAP],
   ) <tab-balance>
 ]
 
-Los activos fijos se presentan netos de depreciación acumulada. En el año 4 el equipo de cómputo aparece por su costo de reposición (\$162,000), pues el anterior quedó totalmente depreciado.
+Los activos fijos se presentan netos de depreciación acumulada. En el año 4 el equipo de cómputo aparece por su costo de reposición (\$126,000), pues el anterior quedó totalmente depreciado.
 
-En todas las columnas el total de activos es igual al total de pasivo y capital, lo que confirma que el balance cuadra (diferencias de \$1 por redondeo). El activo crece sobre todo por la caja, que pasa de \$362,262 a \$1,927,598 en cinco años porque no se reparten dividendos; si los socios decidieran distribuir utilidades, esa caja se reduciría en la misma cantidad y el capital contable disminuiría de igual modo. La depreciación reduce el activo fijo cada año hasta la reposición del equipo en el año 4.
+En todas las columnas el total de activos es igual al total de pasivo y capital, lo que confirma que el balance cuadra (diferencias de \$1 por redondeo). El activo crece sobre todo por la caja, que pasa de \$160,344 a \$720,386 en cinco años porque no se reparten dividendos; si los socios decidieran distribuir utilidades, esa caja se reduciría en la misma cantidad y el capital contable disminuiría de igual modo. La depreciación reduce el activo fijo cada año hasta la reposición del equipo en el año 4.
 
 == Tasa Interna de Retorno (TIR) y Valor Presente Neto (VPN)
 
-A cinco años y con una tasa de descuento de 15 %, SWAP tiene un VPN de \$981,228 y una TIR de 121.5 %, por lo que el proyecto es aceptable desde el punto de vista financiero. El VPN compara el valor presente de los flujos futuros con la inversión inicial: si es positivo, el proyecto se acepta. La TIR es la tasa que hace cero ese VPN, y el proyecto conviene cuando supera la tasa mínima aceptable (TREMA) de 15 %.
+A cinco años y con una tasa de descuento de 15 %, SWAP tiene un VPN de \$234,993 y una TIR de 48.8 %, por lo que el proyecto es aceptable desde el punto de vista financiero en el escenario base. El VPN compara el valor presente de los flujos futuros con la inversión inicial: si es positivo, el proyecto se acepta. La TIR es la tasa que hace cero ese VPN, y el proyecto conviene cuando supera la tasa mínima aceptable (TREMA) de 15 %.
 
-Los flujos netos de efectivo se toman de la proyección de la @tab-flujo-anual: utilidad neta más depreciación, ajustada por cuentas por cobrar e impuestos por pagar, menos la reposición del equipo en el año 4, más la recuperación del fondo de capital de trabajo de \$61,000 en el año 5. La @tab-vpn-tir muestra el cálculo.
+Los flujos netos de efectivo se toman de la proyección de la @tab-flujo-anual: utilidad neta más depreciación, ajustada por cuentas por cobrar e impuestos por pagar, menos la reposición del equipo en el año 4, más la recuperación del fondo de capital de trabajo de \$59,000 en el año 5. La @tab-vpn-tir muestra el cálculo.
 
 #figure(
   table(
@@ -1325,46 +1337,47 @@ Los flujos netos de efectivo se toman de la proyección de la @tab-flujo-anual: 
       [*Año 4*],
       [*Año 5*],
     ),
-    [Inversión inicial], [(\$270,000)], [], [], [], [], [],
-    [Flujo de operación], [], [\$301,262], [\$363,471], [\$407,208], [\$447,161], [\$509,496],
-    [Reposición de equipo de cómputo], [], [], [], [], [(\$162,000)], [],
-    [Recuperación de capital de trabajo], [], [], [], [], [], [\$61,000],
-    [*Flujo neto de efectivo*], [*(\$270,000)*], [*\$301,262*], [*\$363,471*], [*\$407,208*], [*\$285,161*], [*\$570,496*],
+    [Inversión inicial], [(\$225,000)], [], [], [], [], [],
+    [Flujo de operación], [], [\$101,344], [\$135,327], [\$157,278], [\$177,371], [\$216,066],
+    [Reposición de equipo de cómputo], [], [], [], [], [(\$126,000)], [],
+    [Recuperación de capital de trabajo], [], [], [], [], [], [\$59,000],
+    [*Flujo neto de efectivo*], [*(\$225,000)*], [*\$101,344*], [*\$135,327*], [*\$157,278*], [*\$51,371*], [*\$275,066*],
     [Factor de descuento (15 %)], [1.0000], [0.8696], [0.7561], [0.6575], [0.5718], [0.4972],
-    [Valor presente], [(\$270,000)], [\$261,967], [\$274,836], [\$267,746], [\$163,042], [\$283,637],
-    [Flujo acumulado (sin descontar)], [(\$270,000)], [\$31,262], [\$394,733], [\$801,941], [\$1,087,102], [\$1,657,598],
+    [Valor presente], [(\$225,000)], [\$88,125], [\$102,327], [\$103,413], [\$29,371], [\$136,757],
+    [Flujo acumulado (sin descontar)], [(\$225,000)], [(\$123,656)], [\$11,671], [\$168,949], [\$220,320], [\$495,386],
   ),
   caption: [Flujos netos de efectivo, VPN y TIR del proyecto SWAP],
 ) <tab-vpn-tir>
 
-La suma de los valores presentes de los años 1 a 5 es \$1,251,228; al restar la inversión inicial de \$270,000 se obtiene un VPN de \$981,228. El flujo acumulado se vuelve positivo dentro del primer año, y la inversión se recupera en el mes 11 de operación según el flujo de efectivo mensual (@tab-flujo-mensual).
+La suma de los valores presentes de los años 1 a 5 es \$459,993; al restar la inversión inicial de \$225,000 se obtiene un VPN de \$234,993. El flujo acumulado sin descontar se vuelve positivo en el año 3, y la inversión se recupera en el mes 23 de operación, un periodo más largo que antes de incluir la nómina porque los sueldos absorben cerca de 40 % de los ingresos.
 
-Como la TIR es muy alta, se prueba qué pasa si los ingresos resultan menores a los pronosticados. La @tab-sensibilidad recalcula el proyecto con ingresos 20 % y 40 % por debajo del plan, manteniendo los mismos costos.
+Como la nómina es un costo fijo, se prueba qué pasa si los ingresos resultan menores a los pronosticados. La @tab-sensibilidad recalcula el proyecto con ingresos 10 % y 20 % por debajo del plan, manteniendo los mismos costos y los mismos sueldos. Cuando la utilidad de un mes es negativa no se calcula ISR, y no se amortizan pérdidas fiscales.
 
 #figure(
   table(
-    columns: (1.3fr, 1.2fr, 1.1fr, 0.9fr, 1.4fr),
+    columns: (1.3fr, 1.1fr, 1.1fr, 0.8fr, 1.3fr, 1fr),
     inset: 8pt,
-    align: (x, y) => if y == 0 { center + horizon } else if x == 0 { left + horizon } else if x == 4 { center + horizon } else { right + horizon },
+    align: (x, y) => if y == 0 { center + horizon } else if x == 0 { left + horizon } else if x >= 4 { center + horizon } else { right + horizon },
     table.header(
       [*Escenario*],
       [*Utilidad neta año 1*],
       [*VPN (15 %)*],
       [*TIR*],
       [*Recuperación de la inversión*],
+      [*Meses con pérdida (año 1)*],
     ),
-    [Base (@tab-proyeccion)], [\$264,041], [\$981,228], [121.5 %], [11 meses],
-    [Ingresos –20 %], [\$167,028], [\$596,437], [83.4 %], [15 meses],
-    [Ingresos –40 %], [\$70,015], [\$211,645], [41.8 %], [25 meses],
+    [Base (@tab-proyeccion)], [\$82,496], [\$234,993], [48.8 %], [23 meses], [0],
+    [Ingresos –10 %], [\$33,990], [\$42,597], [21.7 %], [35 meses], [0],
+    [Ingresos –20 %], [(\$20,738)], [(\$158,787)], [–13.1 %], [No se recupera en 5 años], [12],
   ),
   caption: [Análisis de sensibilidad del VPN y la TIR a los ingresos],
 ) <tab-sensibilidad>
 
-En los tres escenarios el VPN es positivo y la TIR supera la TREMA de 15 %, por lo que la decisión de aceptar el proyecto no cambia aun con ingresos 40 % menores. Estos resultados dependen de que los socios no cobren sueldo; si se les pagara, el VPN bajaría en proporción al monto de la nómina.
+Con ingresos 10 % menores el VPN sigue siendo positivo (\$42,597) y la TIR (21.7 %) supera la TREMA, aunque la recuperación de la inversión se alarga a 35 meses; con ingresos 20 % menores el año 1 cierra con pérdida y la inversión no se recupera en cinco años. El proyecto es, por tanto, sensible al cumplimiento de la meta de usuarios. Para protegerse, cada incremento del tabulador de sueldos se aplica solo si los ingresos del periodo anterior alcanzan al menos 90 % de lo pronosticado; en caso contrario, el incremento se difiere hasta lograrlo. Estos resultados no incluyen la participación de los socios administrativos en sueldos, pues no perciben ninguno.
 
 == Principales razones financieras
 
-Al cierre del año 1, SWAP cubre 41 veces sus deudas de corto plazo, financia 98 % de sus activos con capital propio y obtiene 38.1 centavos de utilidad neta por cada peso de ingresos. Las razones financieras se calculan con los estados proyectados y permiten juzgar la liquidez, el endeudamiento y la rentabilidad de la empresa.
+Al cierre del año 1, SWAP cubre 73 veces sus deudas de corto plazo, financia 99 % de sus activos con capital propio y obtiene 11.9 centavos de utilidad neta por cada peso de ingresos. Las razones financieras se calculan con los estados proyectados y permiten juzgar la liquidez, el endeudamiento y la rentabilidad de la empresa.
 
 La @tab-razones las presenta con los saldos del mes 12 (@tab-balance) y las ventas y utilidades anuales (@tab-estado-resultados-5).
 
@@ -1380,34 +1393,34 @@ La @tab-razones las presenta con los saldos del mes 12 (@tab-balance) y las vent
       [*Resultado*],
     ),
     [*Liquidez*], [], [], [],
-    [Prueba de liquidez], [Activo circulante / Pasivo circulante], [387,771 / 9,430], [41.12],
-    [Prueba del ácido], [(Activo circulante – Inventario) / Pasivo circulante], [(387,771 – 0) / 9,430], [41.12],
-    [Capital de trabajo], [Activo circulante – Pasivo circulante], [387,771 – 9,430], [\$378,341],
+    [Prueba de liquidez], [Activo circulante / Pasivo circulante], [185,853 / 2,556], [72.71],
+    [Prueba del ácido], [(Activo circulante – Inventario) / Pasivo circulante], [(185,853 – 0) / 2,556], [72.71],
+    [Capital de trabajo], [Activo circulante – Pasivo circulante], [185,853 – 2,556], [\$183,297],
     [*Endeudamiento*], [], [], [],
-    [Pasivos / Activos], [Pasivo total / Activo total], [9,430 / 543,471], [0.02],
-    [Capital / Activos], [Capital contable / Activo total], [534,041 / 543,471], [0.98],
+    [Pasivos / Activos], [Pasivo total / Activo total], [2,556 / 310,053], [0.01],
+    [Capital / Activos], [Capital contable / Activo total], [307,496 / 310,053], [0.99],
     [*Eficiencia*], [], [], [],
-    [Rotación de activo total], [Ventas netas / Activo total], [692,952 / 543,471], [1.28],
+    [Rotación de activo total], [Ventas netas / Activo total], [692,952 / 310,053], [2.23],
     [*Rentabilidad*], [], [], [],
-    [Rentabilidad sobre ventas], [(Utilidad neta / Ventas netas) × 100], [264,041 / 692,952], [38.1 %],
-    [Utilidad de operación sobre ventas], [(Utilidad de operación / Ventas) × 100], [377,202 / 692,952], [54.4 %],
-    [Rentabilidad sobre activo total], [(Utilidad neta / Activo) × 100], [264,041 / 543,471], [48.6 %],
-    [Rentabilidad sobre capital], [(Utilidad neta / Capital) × 100], [264,041 / 534,041], [49.4 %],
+    [Rentabilidad sobre ventas], [(Utilidad neta / Ventas netas) × 100], [82,496 / 692,952], [11.9 %],
+    [Utilidad de operación sobre ventas], [(Utilidad de operación / Ventas) × 100], [117,852 / 692,952], [17.0 %],
+    [Rentabilidad sobre activo total], [(Utilidad neta / Activo) × 100], [82,496 / 310,053], [26.6 %],
+    [Rentabilidad sobre capital], [(Utilidad neta / Capital) × 100], [82,496 / 307,496], [26.8 %],
   ),
   caption: [Principales razones financieras de SWAP al cierre del año 1],
 ) <tab-razones>
 
-Las pruebas de liquidez y del ácido dan el mismo resultado porque SWAP no tiene inventarios; su único pasivo a corto plazo es el ISR del último mes, y la caja lo cubre con amplio margen. La razón de endeudamiento (0.02) indica que los acreedores no tienen casi derechos sobre los activos, que pertenecen a los socios en 98 %.
+Las pruebas de liquidez y del ácido dan el mismo resultado porque SWAP no tiene inventarios; su único pasivo a corto plazo es el ISR del último mes, y la caja lo cubre con amplio margen. La razón de endeudamiento (0.01) indica que los acreedores no tienen casi derechos sobre los activos, que pertenecen a los socios en 99 %.
 
-La rotación de activo total de 1.28 significa que los ingresos anuales superan en 28 % el valor de los activos. Los rendimientos sobre ventas (38.1 %), activo (48.6 %) y capital (49.4 %) son altos para el primer año, en parte porque los socios no cobran sueldo. Como la liquidez es mayor a la necesaria, los socios podrían destinar parte de la caja a marketing, a nuevas funciones de la aplicación o al reparto de utilidades.
+La rotación de activo total de 2.23 significa que los ingresos anuales más que duplican el valor de los activos. Los rendimientos sobre ventas (11.9 %), activo (26.6 %) y capital (26.8 %) son menores que los de un modelo sin sueldos, pues ahora incluyen la nómina de los cuatro desarrolladores, pero siguen siendo positivos y razonables para una empresa en su primer año. Si la liquidez se mantiene por encima de lo necesario, los socios podrían destinar parte de la caja a marketing, a nuevas funciones de la aplicación o al reparto de utilidades.
 
 == Punto de equilibrio
 
-SWAP cubre todos sus costos y gastos con 686 usuarios activos mensuales y \$22,463 de ingresos al mes, es decir, con 38.9 % de la meta del primer año. El punto de equilibrio es el nivel de ingresos en el que la utilidad es cero; se calcula con los costos fijos ($"CF"$), los costos variables ($"CV"$) y los ingresos ($V$) de la @tab-clasificacion-costos:
+SWAP cubre todos sus costos y gastos, incluida la nómina, con 1,426 usuarios activos mensuales y \$46,722 de ingresos al mes, es decir, con 80.9 % de la meta del primer año. El punto de equilibrio es el nivel de ingresos en el que la utilidad es cero; se calcula con los costos fijos ($"CF"$), los costos variables ($"CV"$) y los ingresos ($V$) de la @tab-clasificacion-costos:
 
-$ "PE" = "CF" / (1 - "CV" / V) = (20,012.50) / (1 - (6,300) / (57,746)) = \$22,463 "mensuales" $
+$ "PE" = "CF" / (1 - "CV" / V) = (41,625.00) / (1 - (6,300) / (57,746)) = \$46,722 "mensuales" $
 
-Los costos fijos de \$20,012.50 mensuales suman los costos fijos (\$13,700), los imprevistos (\$1,870.83) y la depreciación (\$4,441.67). La @tab-punto-equilibrio traduce el resultado a usuarios.
+Los costos fijos de \$41,625.00 mensuales suman los costos fijos (\$13,700), la nómina promedio del año 1 (\$22,750), los imprevistos (\$1,691.67) y la depreciación (\$3,483.33). La @tab-punto-equilibrio traduce el resultado a usuarios.
 
 #figure(
   table(
@@ -1418,26 +1431,26 @@ Los costos fijos de \$20,012.50 mensuales suman los costos fijos (\$13,700), los
       [*Concepto*],
       [*Valor*],
     ),
-    [Costos y gastos fijos mensuales], [\$20,012.50],
+    [Costos y gastos fijos mensuales (incluye nómina promedio de \$22,750)], [\$41,625.00],
     [Costo variable por usuario activo], [\$3.58],
     [Ingreso promedio por usuario activo], [\$32.77],
     [Margen de contribución por usuario], [\$29.20 (89.1 %)],
-    [*Punto de equilibrio en usuarios activos mensuales*], [*686 usuarios*],
-    [*Punto de equilibrio en ingresos*], [*\$22,463 mensuales / \$269,558 anuales*],
+    [*Punto de equilibrio en usuarios activos mensuales*], [*1,426 usuarios*],
+    [*Punto de equilibrio en ingresos*], [*\$46,722 mensuales / \$560,664 anuales*],
     [Meta de usuarios del año 1], [1,762 usuarios],
-    [Punto de equilibrio como % de la meta], [38.9 %],
-    [Margen de seguridad], [61.1 %],
+    [Punto de equilibrio como % de la meta], [80.9 %],
+    [Margen de seguridad], [19.1 %],
   ),
   caption: [Punto de equilibrio de SWAP (año 1)],
 ) <tab-punto-equilibrio>
 
-El margen de seguridad de 61.1 % indica que los ingresos podrían caer esa proporción antes de generar pérdidas. Si se toman todos los costos como fijos, el criterio más conservador, el equilibrio sube a \$26,313 mensuales (803 usuarios, 45.6 % de los ingresos planeados) y el margen de seguridad sigue siendo mayor a 54 %. La condición para lograrlo es el efecto de red descrito en el FODA: sin una masa crítica de usuarios locales, la oferta de artículos no alcanza para generar los intercambios que producen los ingresos.
+El margen de seguridad de 19.1 % indica que los ingresos podrían caer esa proporción antes de generar pérdidas, un margen mucho menor que antes de incluir sueldos. Con la nómina de los meses 7 a 12 (\$24,050), el equilibrio sube a \$48,182 mensuales (1,470 usuarios, 83.4 % de la meta). Si se toman todos los costos como fijos, el criterio más conservador, el equilibrio sube a \$47,925 mensuales (1,462 usuarios, 83.0 % de los ingresos planeados) y el margen de seguridad es de 17 %. La condición para lograrlo es el efecto de red descrito en el FODA: sin una masa crítica de usuarios locales, la oferta de artículos no alcanza para generar los intercambios que producen los ingresos.
 
 == Flujo de efectivo
 
-SWAP termina el año 1 con \$362,262 en caja y bancos y no tiene ningún mes con saldo negativo. El flujo de efectivo muestra cuánto dinero entra y sale de la empresa en cada periodo; a diferencia del estado de resultados, registra las fechas reales de cobro y pago, por lo que incluye la compra de activos y el cobro a 30 días de las suscripciones.
+SWAP termina el año 1 con \$160,344 en caja y bancos y no tiene ningún mes con saldo negativo. El flujo de efectivo muestra cuánto dinero entra y sale de la empresa en cada periodo; a diferencia del estado de resultados, registra las fechas reales de cobro y pago, por lo que incluye la compra de activos y el cobro a 30 días de las suscripciones.
 
-En el mes 1 entran \$270,000 de capital social y \$32,237 de ingresos cobrados de contado (comisiones y guías de envío); salen \$209,000 por activos y \$21,871 por costos operativos e imprevistos. Desde el mes 2 se suman los cobros de suscripciones del mes anterior y el pago del ISR. La @tab-flujo-mensual detalla los 12 meses.
+En el mes 1 entran \$225,000 de capital social y \$32,237 de ingresos cobrados de contado (comisiones y guías de envío); salen \$166,000 por activos y \$43,142 por costos operativos, imprevistos y nómina. Desde el mes 2 se suman los cobros de suscripciones del mes anterior y el pago del ISR. La @tab-flujo-mensual detalla los 12 meses.
 
 #[
   #set text(size: 10pt)
@@ -1451,32 +1464,32 @@ En el mes 1 entran \$270,000 de capital social y \$32,237 de ingresos cobrados d
         [*Saldo inicial*],
         [*Capital social*],
         [*Cobros de ingresos*],
-        [*Costos y gastos pagados*],
+        [*Costos, gastos y nómina pagados*],
         [*ISR pagado*],
         [*Compra de activos*],
         [*Saldo final*],
       ),
-      [1], [\$0], [\$270,000], [\$32,237], [\$21,871], [\$0], [\$209,000], [\$71,366],
-      [2], [\$71,366], [\$0], [\$57,746], [\$21,871], [\$9,430], [\$0], [\$97,811],
-      [3], [\$97,811], [\$0], [\$57,746], [\$21,871], [\$9,430], [\$0], [\$124,256],
-      [4], [\$124,256], [\$0], [\$57,746], [\$21,871], [\$9,430], [\$0], [\$150,702],
-      [5], [\$150,702], [\$0], [\$57,746], [\$21,871], [\$9,430], [\$0], [\$177,147],
-      [6], [\$177,147], [\$0], [\$57,746], [\$21,871], [\$9,430], [\$0], [\$203,592],
-      [7], [\$203,592], [\$0], [\$57,746], [\$21,871], [\$9,430], [\$0], [\$230,037],
-      [8], [\$230,037], [\$0], [\$57,746], [\$21,871], [\$9,430], [\$0], [\$256,482],
-      [9], [\$256,482], [\$0], [\$57,746], [\$21,871], [\$9,430], [\$0], [\$282,927],
-      [10], [\$282,927], [\$0], [\$57,746], [\$21,871], [\$9,430], [\$0], [\$309,372],
-      [11], [\$309,372], [\$0], [\$57,746], [\$21,871], [\$9,430], [\$0], [\$335,817],
-      [12], [\$335,817], [\$0], [\$57,746], [\$21,871], [\$9,430], [\$0], [\$362,262],
-      [*Total año 1*], [*\$0*], [*\$270,000*], [*\$667,443*], [*\$262,450*], [*\$103,731*], [*\$209,000*], [*\$362,262*],
+      [1], [\$0], [\$225,000], [\$32,237], [\$43,142], [\$0], [\$166,000], [\$48,095],
+      [2], [\$48,095], [\$0], [\$57,746], [\$43,142], [\$3,336], [\$0], [\$59,363],
+      [3], [\$59,363], [\$0], [\$57,746], [\$43,142], [\$3,336], [\$0], [\$70,631],
+      [4], [\$70,631], [\$0], [\$57,746], [\$43,142], [\$3,336], [\$0], [\$81,899],
+      [5], [\$81,899], [\$0], [\$57,746], [\$43,142], [\$3,336], [\$0], [\$93,167],
+      [6], [\$93,167], [\$0], [\$57,746], [\$43,142], [\$3,336], [\$0], [\$104,436],
+      [7], [\$104,436], [\$0], [\$57,746], [\$45,742], [\$3,336], [\$0], [\$113,104],
+      [8], [\$113,104], [\$0], [\$57,746], [\$45,742], [\$2,556], [\$0], [\$122,552],
+      [9], [\$122,552], [\$0], [\$57,746], [\$45,742], [\$2,556], [\$0], [\$132,000],
+      [10], [\$132,000], [\$0], [\$57,746], [\$45,742], [\$2,556], [\$0], [\$141,448],
+      [11], [\$141,448], [\$0], [\$57,746], [\$45,742], [\$2,556], [\$0], [\$150,896],
+      [12], [\$150,896], [\$0], [\$57,746], [\$45,742], [\$2,556], [\$0], [\$160,344],
+      [*Total año 1*], [*\$0*], [*\$225,000*], [*\$667,443*], [*\$533,300*], [*\$32,799*], [*\$166,000*], [*\$160,344*],
     ),
     caption: [Flujo de efectivo mensual de SWAP, año 1],
   ) <tab-flujo-mensual>
 ]
 
-Los cobros del mes 1 no incluyen suscripciones, que se cobran un mes después. Los \$25,509 de suscripciones del mes 12 quedan como cuentas por cobrar, y el ISR del mes 12 (\$9,430) se paga en el mes 13.
+Los cobros del mes 1 no incluyen suscripciones, que se cobran un mes después. Los \$25,509 de suscripciones del mes 12 quedan como cuentas por cobrar, y el ISR del mes 12 (\$2,215) se paga en el mes 13.
 
-El saldo más bajo del año es \$71,366, al cierre del mes 1, después de comprar todos los activos; desde ahí la caja aumenta \$26,445 cada mes. Esto confirma que el fondo de \$61,000 de capital de trabajo no se llega a usar.
+El saldo más bajo del año es \$48,095, al cierre del mes 1, después de comprar todos los activos y pagar la primera nómina; desde ahí la caja aumenta \$11,268 al mes en la primera etapa de nómina y \$9,448 al mes desde el mes 8, cuando los sueldos ya subieron. Esto confirma que el fondo de \$59,000 de capital de trabajo solo se usa parcialmente.
 
 La @tab-flujo-anual extiende el flujo a cinco años con el formato anual del capítulo de finanzas.
 
@@ -1493,19 +1506,19 @@ La @tab-flujo-anual extiende el flujo a cinco años con el formato anual del cap
       [*Año 4*],
       [*Año 5*],
     ),
-    [Saldo inicial de caja], [\$0], [\$362,262], [\$725,733], [\$1,132,941], [\$1,418,102],
+    [Saldo inicial de caja], [\$0], [\$160,344], [\$295,671], [\$452,949], [\$504,320],
     [(+) Cobros de ingresos], [\$667,443], [\$759,696], [\$835,666], [\$919,233], [\$1,011,156],
-    [(–) Costos y gastos pagados], [\$262,450], [\$264,600], [\$277,830], [\$291,722], [\$306,308],
-    [(–) ISR pagado], [\$103,731], [\$131,626], [\$150,628], [\$180,350], [\$195,352],
-    [*= Flujo de efectivo de operación*], [*\$301,262*], [*\$363,471*], [*\$407,208*], [*\$447,161*], [*\$509,496*],
-    [(+) Aportación de capital], [\$270,000], [\$0], [\$0], [\$0], [\$0],
-    [(–) Adquisición de activos], [\$209,000], [\$0], [\$0], [\$162,000], [\$0],
-    [*= Saldo final de caja*], [*\$362,262*], [*\$725,733*], [*\$1,132,941*], [*\$1,418,102*], [*\$1,927,598*],
+    [(–) Costos, gastos y nómina pagados], [\$533,300], [\$584,400], [\$628,830], [\$673,922], [\$719,708],
+    [(–) ISR pagado], [\$32,799], [\$39,969], [\$49,558], [\$67,940], [\$75,382],
+    [*= Flujo de efectivo de operación*], [*\$101,344*], [*\$135,327*], [*\$157,278*], [*\$177,371*], [*\$216,066*],
+    [(+) Aportación de capital], [\$225,000], [\$0], [\$0], [\$0], [\$0],
+    [(–) Adquisición de activos], [\$166,000], [\$0], [\$0], [\$126,000], [\$0],
+    [*= Saldo final de caja*], [*\$160,344*], [*\$295,671*], [*\$452,949*], [*\$504,320*], [*\$720,386*],
   ),
   caption: [Flujo de efectivo proyectado de SWAP, años 1 a 5],
 ) <tab-flujo-anual>
 
-El flujo de operación crece cada año y cubre sin dificultad la reposición del equipo de cómputo en el año 4. Por ser SWAP una empresa sin deuda, el flujo no incluye pagos de capital ni de intereses; la única decisión pendiente es el destino de la caja acumulada, que supera \$1.9 millones en el año 5 si no se distribuyen dividendos.
+El flujo de operación crece cada año y cubre la reposición del equipo de cómputo en el año 4, aunque ese año el saldo de caja crece menos que en los demás (de \$452,949 a \$504,320). Por ser SWAP una empresa sin deuda, el flujo no incluye pagos de capital ni de intereses; la única decisión pendiente es el destino de la caja acumulada, que llega a \$720,386 en el año 5 si no se distribuyen dividendos.
 #pagebreak()
 
 #[
@@ -1531,6 +1544,107 @@ El flujo de operación crece cada año y cubre sin dificultad la reposición del
 #set heading(numbering: none)
 
 == Administración de sueldos y salarios
+
+Esta sección detalla la remuneración de los cuatro desarrolladores, que son los únicos integrantes de SWAP en nómina. Los cinco socios de las áreas de Administración y Finanzas y de Marketing y Comercialización no perciben sueldo durante el horizonte de cinco años; su retribución proviene del reparto de utilidades, por lo que no se incluyen en esta administración de sueldos.
+
+=== Criterios del esquema escalonado
+
++ *Sueldo bruto mensual:* cada desarrollador recibe un sueldo base mensual definido por etapa. Se paga de forma quincenal.
++ *Seis etapas:* el año 1 se divide en dos etapas (meses 1 a 6 y meses 7 a 12) y los años 2 a 5 tienen una etapa cada uno, con un incremento de \$500 por desarrollador en cada paso. El responsable de la arquitectura backend recibe \$500 más que los demás integrantes por su rol de liderazgo técnico.
++ *Cargas patronales y prestaciones:* se estima un 30 % adicional sobre el sueldo bruto, que cubre cuotas de seguridad social, aportaciones a INFONAVIT y SAR, impuesto sobre nómina estatal, aguinaldo, vacaciones y prima vacacional. Es una estimación global que deberá validar el contador al formalizar las altas ante el IMSS.
++ *Cláusula de ajuste:* cada incremento se aplica solo si los ingresos del periodo anterior alcanzan al menos 90 % de lo pronosticado en la @tab-proyeccion; si no, el incremento se difiere hasta que se cumpla. Así la nómina no genera utilidades netas negativas.
++ *Participación en utilidades:* los cuatro desarrolladores son también socios fundadores, por lo que además del sueldo participan proporcionalmente en las utilidades que se repartan.
+
+=== Tabulador escalonado
+
+La @tab-tabulador muestra el sueldo bruto mensual de cada desarrollador en cada etapa, el total mensual del equipo y su costo con cargas.
+
+#[
+  #set text(size: 9pt)
+  #figure(
+    table(
+      columns: (1.6fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1.1fr),
+      inset: 5pt,
+      align: (x, y) => if y == 0 { center + horizon } else if x == 0 { left + horizon } else { right + horizon },
+      table.header(
+        [*Etapa*],
+        [*Barrera Torres*],
+        [*Rodríguez Castellanos*],
+        [*Rosaldo Santiago*],
+        [*Sánchez Saucedo*],
+        [*Total bruto mensual*],
+        [*Costo mensual con cargas (30 %)*],
+      ),
+      [Año 1, meses 1–6], [\$4,500], [\$4,000], [\$4,000], [\$4,000], [\$16,500], [\$21,450],
+      [Año 1, meses 7–12], [\$5,000], [\$4,500], [\$4,500], [\$4,500], [\$18,500], [\$24,050],
+      [Año 2], [\$5,500], [\$5,000], [\$5,000], [\$5,000], [\$20,500], [\$26,650],
+      [Año 3], [\$6,000], [\$5,500], [\$5,500], [\$5,500], [\$22,500], [\$29,250],
+      [Año 4], [\$6,500], [\$6,000], [\$6,000], [\$6,000], [\$24,500], [\$31,850],
+      [Año 5], [\$7,000], [\$6,500], [\$6,500], [\$6,500], [\$26,500], [\$34,450],
+    ),
+    caption: [Tabulador escalonado de sueldos brutos mensuales por desarrollador],
+  ) <tab-tabulador>
+]
+
+=== Sueldo y costo anual por desarrollador
+
+Las @tab-sueldo-bruto-dev y @tab-costo-dev presentan el sueldo bruto y el costo con cargas de cada desarrollador durante los cinco años del horizonte. En el año 1 se suman seis meses de la primera etapa y seis de la segunda.
+
+#[
+  #set text(size: 9pt)
+  #figure(
+    table(
+      columns: (1.9fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1.1fr),
+      inset: 5pt,
+      align: (x, y) => if y == 0 { center + horizon } else if x == 0 { left + horizon } else { right + horizon },
+      table.header(
+        [*Desarrollador*],
+        [*Año 1*],
+        [*Año 2*],
+        [*Año 3*],
+        [*Año 4*],
+        [*Año 5*],
+        [*Total 5 años*],
+      ),
+      [Abraham Giovani Barrera Torres], [\$57,000], [\$66,000], [\$72,000], [\$78,000], [\$84,000], [\$357,000],
+      [Erick Yamil Rodríguez Castellanos], [\$51,000], [\$60,000], [\$66,000], [\$72,000], [\$78,000], [\$327,000],
+      [Josué Eliel Rosaldo Santiago], [\$51,000], [\$60,000], [\$66,000], [\$72,000], [\$78,000], [\$327,000],
+      [René Emiliano Sánchez Saucedo], [\$51,000], [\$60,000], [\$66,000], [\$72,000], [\$78,000], [\$327,000],
+      [*Total equipo*], [*\$210,000*], [*\$246,000*], [*\$270,000*], [*\$294,000*], [*\$318,000*], [*\$1,338,000*],
+    ),
+    caption: [Sueldo bruto anual por desarrollador],
+  ) <tab-sueldo-bruto-dev>
+]
+
+#[
+  #set text(size: 9pt)
+  #figure(
+    table(
+      columns: (1.9fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1.1fr),
+      inset: 5pt,
+      align: (x, y) => if y == 0 { center + horizon } else if x == 0 { left + horizon } else { right + horizon },
+      table.header(
+        [*Desarrollador*],
+        [*Año 1*],
+        [*Año 2*],
+        [*Año 3*],
+        [*Año 4*],
+        [*Año 5*],
+        [*Total 5 años*],
+      ),
+      [Abraham Giovani Barrera Torres], [\$74,100], [\$85,800], [\$93,600], [\$101,400], [\$109,200], [\$464,100],
+      [Erick Yamil Rodríguez Castellanos], [\$66,300], [\$78,000], [\$85,800], [\$93,600], [\$101,400], [\$425,100],
+      [Josué Eliel Rosaldo Santiago], [\$66,300], [\$78,000], [\$85,800], [\$93,600], [\$101,400], [\$425,100],
+      [René Emiliano Sánchez Saucedo], [\$66,300], [\$78,000], [\$85,800], [\$93,600], [\$101,400], [\$425,100],
+      [*Total equipo*], [*\$273,000*], [*\$319,800*], [*\$351,000*], [*\$382,200*], [*\$413,400*], [*\$1,739,400*],
+    ),
+    caption: [Costo anual por desarrollador con cargas patronales y prestaciones (30 %)],
+  ) <tab-costo-dev>
+]
+
+=== Relación con el estudio financiero
+
+La suma de los costos anuales con cargas de la @tab-costo-dev coincide con la nómina que aparece en el estado de resultados (@tab-estado-resultados-5) y en el resumen de costos de producción (@resumen-costos). Su peso en los ingresos se muestra en la @tab-nomina-resumen: 39.4 % en el año 1 y entre 40.7 % y 42.0 % en los años 2 a 5.
 
 == Instrumento de investigación de mercado
 
@@ -1817,6 +1931,33 @@ A continuación se presenta el instrumento de investigación de mercado aplicado
 
 == Gráficas en base a las respuestas del cuestionario
 
+A continuación se presentan las gráficas con los resultados de la encuesta aplicada a las 44 personas de la muestra, a las que se hace referencia en la sección de Investigación de Mercado. Las gráficas relacionadas con los medios de monetización se conservan dentro de esa sección.
+
+#figure(
+  image("../images/edad_ocupacion.png", width: 6in),
+  caption: [Edad por ocupación]
+) <grafica-1>
+
+#figure(
+  image("../images/categorias_articulos.png", width: 6in),
+  caption: [Cantidad y categorías de artículos en desuso.]
+) <grafica-2>
+
+#figure(
+  image("../images/canales_utilizados.png", width: 6in),
+  caption: [Destino de los artículos de segunda mano.]
+) <grafica-3>
+
+#figure(
+  image("../images/generar_confianza.png", width: 6in),
+  caption: [Elementos para generar confianza.]
+) <grafica-4>
+
+#figure(
+  image("../images/preocupaciones.png", width: 6in),
+  caption: [Principales preocupaciones en un encuentro físico.]
+) <grafica-5>
+
 == Formato de descripción de puestos
 
 A continuación se presentan las fichas de descripción de puestos correspondientes a los 9 socios fundadores de SWAP, organizadas por dirección funcional (@puesto-1 a @puesto-9).
@@ -2004,7 +2145,7 @@ A continuación se presentan las fichas de descripción de puestos correspondien
   area: "Área de Administración y Finanzas (Junta Directiva - Socio Fundador).",
   objetivo: "Optimizar la asignación de recursos financieros de SWAP mediante el control riguroso de los costos de producción, gastos operativos e inversiones en infraestructura tecnológica.",
   responsabilidades: (
-    "Controlar y auditar el ejercicio del presupuesto anual de producción ($471,450.00 MXN en el Año 1), supervisando la inversión en activo fijo tecnológico ($162,000.00 MXN) y mobiliario de oficina ($47,000.00 MXN).",
+    "Controlar y auditar el ejercicio del presupuesto anual de producción ($426,300.00 MXN en el Año 1), supervisando la inversión en activo fijo tecnológico ($126,000.00 MXN) y mobiliario de oficina ($40,000.00 MXN).",
     "Monitorear mensualmente los gastos operativos fijos y variables ($20,000.00 MXN/mes), incluyendo infraestructura en la nube (AWS/GCP), licencias de desarrollo, consumo de APIs (Google Maps y SMS/OTP), renta y servicios públicos.",
     "Administrar y autorizar el uso del fondo de imprevistos (5% del presupuesto operativo) ante variaciones en el consumo de servidores o demandas de escalabilidad de usuarios.",
     "Analizar los costos unitarios por transacción (costo de emisión de guías logísticas y procesamiento de pagos) para preservar la rentabilidad de la tarifa de $15.00 MXN por intercambio.",
@@ -2108,7 +2249,7 @@ A continuación se presentan las fichas de descripción de puestos correspondien
     *Evaluaciones 360:* Retroalimentación de los compañeros de la célula técnica (Josué Eliel Rosaldo Santiago, Erick Yamil Rodríguez Castellanos y René Emiliano Sánchez Saucedo) y de la Junta Directiva.
   ],
   horario: "Lunes a viernes de 9:00 am a 6:00 pm de tiempo completo presencial en la oficina central de desarrollo (Av. Universidad km 7.5, Col. Santa Isabel, Coatzacoalcos, Ver.).",
-  salario: "$16,000 – $22,000 MXN mensuales (tabulador proyectado de liderazgo técnico) / Durante la etapa de arranque opera bajo esquema de socio fundador con participación accionaria y distribución de utilidades por monetización de la plataforma.",
+  salario: "Sueldo bruto mensual escalonado de $4,500 (meses 1 a 6) a $7,000 (año 5), según el tabulador de la sección Administración de sueldos y salarios; adicionalmente participa como socio fundador en las utilidades.",
   etiqueta: "puesto-4",
 )
 
@@ -2148,7 +2289,7 @@ A continuación se presentan las fichas de descripción de puestos correspondien
     *Evaluaciones 360:* Retroalimentación de los integrantes de Tecnología y Producto (Abraham Giovanni Barrera Torres, Josué Eliel Rosaldo Santiago y René Emiliano Sánchez Saucedo) y de Administración y Finanzas.
   ],
   horario: "Lunes a viernes de 9:00 am a 6:00 pm de tiempo completo presencial en la oficina central de desarrollo (Av. Universidad km 7.5, Col. Santa Isabel, Coatzacoalcos, Ver.).",
-  salario: "$15,000 – $20,000 MXN mensuales (tabulador proyectado de ingeniería especializada) / En etapa inicial opera como socio fundador con participación accionaria y reparto proporcional de utilidades.",
+  salario: "Sueldo bruto mensual escalonado de $4,000 (meses 1 a 6) a $6,500 (año 5), según el tabulador de la sección Administración de sueldos y salarios; adicionalmente participa como socio fundador en las utilidades.",
   etiqueta: "puesto-5",
 )
 
@@ -2188,7 +2329,7 @@ A continuación se presentan las fichas de descripción de puestos correspondien
     *Evaluaciones 360:* Retroalimentación de los compañeros del equipo técnico (Abraham Giovanni Barrera Torres, Erick Yamil Rodríguez Castellanos y René Emiliano Sánchez Saucedo) y del área de Marketing.
   ],
   horario: "Lunes a viernes de 9:00 am a 6:00 pm de tiempo completo presencial en la oficina central de desarrollo (Av. Universidad km 7.5, Col. Santa Isabel, Coatzacoalcos, Ver.).",
-  salario: "$15,000 – $20,000 MXN mensuales (tabulador proyectado de ingeniería de desarrollo) / En etapa de arranque opera bajo esquema de socio fundador mediante participación accionaria y distribución de utilidades.",
+  salario: "Sueldo bruto mensual escalonado de $4,000 (meses 1 a 6) a $6,500 (año 5), según el tabulador de la sección Administración de sueldos y salarios; adicionalmente participa como socio fundador en las utilidades.",
   etiqueta: "puesto-6",
 )
 
@@ -2228,7 +2369,7 @@ A continuación se presentan las fichas de descripción de puestos correspondien
     *Evaluaciones 360:* Retroalimentación directa de los 3 desarrolladores de la célula técnica (Abraham Giovanni Barrera Torres, Josué Eliel Rosaldo Santiago y Erick Yamil Rodríguez Castellanos) y de los socios de Marketing y Finanzas.
   ],
   horario: "Lunes a viernes de 9:00 am a 6:00 pm de tiempo completo presencial en la oficina central de desarrollo (Av. Universidad km 7.5, Col. Santa Isabel, Coatzacoalcos, Ver.).",
-  salario: "$15,000 – $20,000 MXN mensuales (tabulador proyectado de gestión de producto y QA) / En etapa de consolidación opera como socio fundador con participación accionaria y reparto proporcional de utilidades.",
+  salario: "Sueldo bruto mensual escalonado de $4,000 (meses 1 a 6) a $6,500 (año 5), según el tabulador de la sección Administración de sueldos y salarios; adicionalmente participa como socio fundador en las utilidades.",
   etiqueta: "puesto-7",
 )
 
